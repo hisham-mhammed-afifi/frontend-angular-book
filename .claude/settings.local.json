@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm create vite@latest book-site -- --template react)",
+      "Bash(npm install)",
+      "Bash(npm install react-markdown remark-gfm rehype-highlight rehype-slug rehype-raw react-router-dom highlight.js)",
+      "Bash(npx vite build)"
+    ]
+  }
+}

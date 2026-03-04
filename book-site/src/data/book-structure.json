@@ -1,0 +1,838 @@
+{
+  "title": "Frontend to Framework",
+  "subtitle": "A Practical Guide to Building Production-Grade Angular Applications from the Ground Up",
+  "author": "",
+  "parts": [
+    {
+      "partNumber": 1,
+      "name": "Web Fundamentals",
+      "phase": "Phase 1",
+      "chapters": [
+        {
+          "chapterNumber": 1,
+          "name": "HTML Deep Dive",
+          "folder": "section-01",
+          "topics": [
+            { "id": "1.1", "file": "1.1-document-structure.md", "title": "Document Structure", "exists": true },
+            { "id": "1.2", "file": "1.2-semantic-elements.md", "title": "Semantic Elements", "exists": true },
+            { "id": "1.3", "file": "1.3-text-content-elements.md", "title": "Text Content Elements", "exists": true },
+            { "id": "1.4", "file": "1.4-links-and-navigation.md", "title": "Links and Navigation", "exists": true },
+            { "id": "1.5", "file": "1.5-images-and-media.md", "title": "Images and Media", "exists": true },
+            { "id": "1.6", "file": "1.6-tables.md", "title": "Tables", "exists": true },
+            { "id": "1.7", "file": "1.7-forms-and-input-types.md", "title": "Forms and Input Types", "exists": true },
+            { "id": "1.8", "file": "1.8-form-validation-attributes.md", "title": "Form Validation Attributes", "exists": true },
+            { "id": "1.9", "file": "1.9-meta-tags-and-seo.md", "title": "Meta Tags and SEO", "exists": true },
+            { "id": "1.10", "file": "1.10-html-entities-and-special-characters.md", "title": "HTML Entities and Special Characters", "exists": true },
+            { "id": "1.11", "file": "1.11-data-attributes.md", "title": "Data Attributes", "exists": true },
+            { "id": "1.12", "file": "1.12-the-template-element.md", "title": "The Template Element", "exists": true },
+            { "id": "1.13", "file": "1.13-embedding-content.md", "title": "Embedding Content", "exists": true },
+            { "id": "1.14", "file": "1.14-web-components-basics.md", "title": "Web Components Basics", "exists": true }
+          ]
+        },
+        {
+          "chapterNumber": 2,
+          "name": "CSS Mastery",
+          "folder": "section-02",
+          "topics": [
+            { "id": "2.1", "file": "2.1-selectors.md", "title": "Selectors", "exists": true },
+            { "id": "2.2", "file": "2.2-specificity-and-the-cascade.md", "title": "Specificity and the Cascade", "exists": true },
+            { "id": "2.3", "file": "2.3-box-model.md", "title": "Box Model", "exists": true },
+            { "id": "2.4", "file": "2.4-display-types.md", "title": "Display Types", "exists": true },
+            { "id": "2.5", "file": "2.5-positioning.md", "title": "Positioning", "exists": true },
+            { "id": "2.6", "file": "2.6-flexbox.md", "title": "Flexbox", "exists": true },
+            { "id": "2.7", "file": "2.7-css-grid.md", "title": "CSS Grid", "exists": true },
+            { "id": "2.8", "file": "2.8-typography.md", "title": "Typography", "exists": true },
+            { "id": "2.9", "file": "2.9-colors.md", "title": "Colors", "exists": true },
+            { "id": "2.10", "file": "2.10-css-custom-properties.md", "title": "CSS Custom Properties (Variables)", "exists": true },
+            { "id": "2.11", "file": "2.11-backgrounds-and-gradients.md", "title": "Backgrounds and Gradients", "exists": true },
+            { "id": "2.12", "file": "2.12-borders-and-shadows.md", "title": "Borders and Shadows", "exists": true },
+            { "id": "2.13", "file": "2.13-transitions.md", "title": "Transitions", "exists": true },
+            { "id": "2.14", "file": "2.14-animations.md", "title": "Animations", "exists": true },
+            { "id": "2.15", "file": "2.15-transforms.md", "title": "Transforms", "exists": true },
+            { "id": "2.16", "file": "2.16-css-functions.md", "title": "CSS Functions", "exists": true },
+            { "id": "2.17", "file": "2.17-modern-css-features.md", "title": "Modern CSS Features", "exists": true },
+            { "id": "2.18", "file": "2.18-css-methodologies.md", "title": "CSS Methodologies", "exists": true }
+          ]
+        },
+        {
+          "chapterNumber": 3,
+          "name": "Responsive Design & Mobile First",
+          "folder": "section-03",
+          "topics": [
+            { "id": "3.1", "file": "3.1-mobile-first-philosophy.md", "title": "Mobile-First Philosophy", "exists": true },
+            { "id": "3.2", "file": "3.2-viewport-meta-tag.md", "title": "Viewport Meta Tag", "exists": true },
+            { "id": "3.3", "file": "3.3-media-queries.md", "title": "Media Queries", "exists": true },
+            { "id": "3.4", "file": "3.4-responsive-units.md", "title": "Responsive Units", "exists": true },
+            { "id": "3.5", "file": "3.5-fluid-typography.md", "title": "Fluid Typography", "exists": true },
+            { "id": "3.6", "file": "3.6-responsive-images.md", "title": "Responsive Images", "exists": true },
+            { "id": "3.7", "file": "3.7-css-grid-for-responsive-layouts.md", "title": "CSS Grid for Responsive Layouts", "exists": true },
+            { "id": "3.8", "file": "3.8-flexbox-wrapping-patterns.md", "title": "Flexbox Wrapping Patterns", "exists": true },
+            { "id": "3.9", "file": "3.9-container-queries.md", "title": "Container Queries", "exists": true },
+            { "id": "3.10", "file": "3.10-common-responsive-patterns.md", "title": "Common Responsive Patterns", "exists": true },
+            { "id": "3.11", "file": "3.11-touch-friendly-design.md", "title": "Touch-Friendly Design", "exists": true },
+            { "id": "3.12", "file": "3.12-testing-responsive-designs.md", "title": "Testing Responsive Designs", "exists": true },
+            { "id": "3.13", "file": "3.13-performance-on-mobile.md", "title": "Performance on Mobile", "exists": true }
+          ]
+        },
+        {
+          "chapterNumber": 4,
+          "name": "SASS (CSS Preprocessor)",
+          "folder": "section-04",
+          "topics": [
+            { "id": "4.1", "file": "4.1-sass-vs-scss-syntax.md", "title": "SASS vs SCSS Syntax", "exists": true },
+            { "id": "4.2", "file": "4.2-variables.md", "title": "Variables", "exists": true },
+            { "id": "4.3", "file": "4.3-nesting-and-the-parent-selector.md", "title": "Nesting and the Parent Selector", "exists": true },
+            { "id": "4.4", "file": "4.4-partials-and-use-forward.md", "title": "Partials and @use / @forward", "exists": true },
+            { "id": "4.5", "file": "4.5-deprecation-of-import.md", "title": "Deprecation of @import", "exists": true },
+            { "id": "4.6", "file": "4.6-mixins.md", "title": "Mixins", "exists": true },
+            { "id": "4.7", "file": "4.7-functions.md", "title": "Functions", "exists": true },
+            { "id": "4.8", "file": "4.8-extend-and-placeholder-selectors.md", "title": "Extend and Placeholder Selectors", "exists": true },
+            { "id": "4.9", "file": "4.9-control-flow.md", "title": "Control Flow", "exists": true },
+            { "id": "4.10", "file": "4.10-maps-and-lists.md", "title": "Maps and Lists", "exists": true },
+            { "id": "4.11", "file": "4.11-interpolation.md", "title": "Interpolation", "exists": true },
+            { "id": "4.12", "file": "4.12-built-in-modules.md", "title": "Built-in Modules", "exists": true },
+            { "id": "4.13", "file": "4.13-sass-architecture-patterns.md", "title": "SASS Architecture Patterns", "exists": true },
+            { "id": "4.14", "file": "4.14-theming-with-sass.md", "title": "Theming with SASS", "exists": true },
+            { "id": "4.15", "file": "4.15-sass-vs-modern-css.md", "title": "SASS vs Modern CSS", "exists": true }
+          ]
+        },
+        {
+          "chapterNumber": 5,
+          "name": "JavaScript Deep Dive",
+          "folder": "section-05",
+          "topics": [
+            { "id": "5.1", "file": "5.1-variables-and-scope.md", "title": "Variables and Scope", "exists": true },
+            { "id": "5.2", "file": "5.2-data-types-and-type-coercion.md", "title": "Data Types and Type Coercion", "exists": true },
+            { "id": "5.3", "file": "5.3-operators.md", "title": "Operators", "exists": true },
+            { "id": "5.4", "file": "5.4-control-flow.md", "title": "Control Flow", "exists": true },
+            { "id": "5.5", "file": "5.5-strings.md", "title": "Strings", "exists": true },
+            { "id": "5.6", "file": "5.6-arrays.md", "title": "Arrays", "exists": true },
+            { "id": "5.7", "file": "5.7-objects.md", "title": "Objects", "exists": true },
+            { "id": "5.8", "file": "5.8-functions.md", "title": "Functions", "exists": true },
+            { "id": "5.9", "file": "5.9-the-this-keyword.md", "title": "The this Keyword", "exists": true },
+            { "id": "5.10", "file": "5.10-scope-and-closures.md", "title": "Scope and Closures", "exists": true },
+            { "id": "5.11", "file": "5.11-prototypes-and-inheritance.md", "title": "Prototypes and Inheritance", "exists": true },
+            { "id": "5.12", "file": "5.12-classes.md", "title": "Classes", "exists": true },
+            { "id": "5.13", "file": "5.13-destructuring-and-spread.md", "title": "Destructuring and Spread", "exists": true },
+            { "id": "5.14", "file": "5.14-modules.md", "title": "Modules (ES Modules)", "exists": true },
+            { "id": "5.15", "file": "5.15-asynchronous-javascript.md", "title": "Asynchronous JavaScript", "exists": true },
+            { "id": "5.16", "file": "5.16-error-handling.md", "title": "Error Handling", "exists": true },
+            { "id": "5.17", "file": "5.17-iterators-and-generators.md", "title": "Iterators and Generators", "exists": true },
+            { "id": "5.18", "file": "5.18-collections.md", "title": "Collections", "exists": true },
+            { "id": "5.19", "file": "5.19-proxy-and-reflect.md", "title": "Proxy and Reflect", "exists": true },
+            { "id": "5.20", "file": "5.20-event-loop.md", "title": "Event Loop", "exists": true },
+            { "id": "5.21", "file": "5.21-dom-manipulation.md", "title": "DOM Manipulation", "exists": true },
+            { "id": "5.22", "file": "5.22-web-apis.md", "title": "Web APIs", "exists": true },
+            { "id": "5.23", "file": "5.23-regular-expressions.md", "title": "Regular Expressions", "exists": true },
+            { "id": "5.24", "file": "5.24-websockets-and-server-sent-events.md", "title": "WebSockets and Server-Sent Events", "exists": true },
+            { "id": "5.25", "file": "5.25-modern-javascript.md", "title": "Modern JavaScript (ES2022-ES2025)", "exists": true }
+          ]
+        },
+        {
+          "chapterNumber": 6,
+          "name": "Problem Solving with JavaScript",
+          "folder": "section-06",
+          "topics": [
+            { "id": "6.1", "file": "6.1-big-o-notation.md", "title": "Big O Notation", "exists": true },
+            { "id": "6.2", "file": "6.2-arrays-and-strings.md", "title": "Arrays and Strings", "exists": true },
+            { "id": "6.3", "file": "6.3-searching.md", "title": "Searching", "exists": true },
+            { "id": "6.4", "file": "6.4-sorting.md", "title": "Sorting", "exists": true },
+            { "id": "6.5", "file": "6.5-recursion-and-call-stack.md", "title": "Recursion and Call Stack", "exists": true },
+            { "id": "6.6", "file": "6.6-hash-maps-and-hash-sets.md", "title": "Hash Maps and Hash Sets", "exists": true },
+            { "id": "6.7", "file": "6.7-stacks-and-queues.md", "title": "Stacks and Queues", "exists": true },
+            { "id": "6.8", "file": "6.8-linked-lists.md", "title": "Linked Lists", "exists": true },
+            { "id": "6.9", "file": "6.9-trees-and-binary-search-trees.md", "title": "Trees and Binary Search Trees", "exists": true },
+            { "id": "6.10", "file": "6.10-graphs.md", "title": "Graphs", "exists": true },
+            { "id": "6.11", "file": "6.11-common-patterns.md", "title": "Common Patterns", "exists": true },
+            { "id": "6.12", "file": "6.12-real-world-problem-solving.md", "title": "Real-World Problem Solving", "exists": true }
+          ]
+        },
+        {
+          "chapterNumber": 7,
+          "name": "TypeScript Complete Guide",
+          "folder": "section-07",
+          "topics": [
+            { "id": "7.1", "file": "7.1-setup-and-configuration.md", "title": "Setup and Configuration", "exists": true },
+            { "id": "7.2", "file": "7.2-basic-types.md", "title": "Basic Types", "exists": true },
+            { "id": "7.3", "file": "7.3-arrays-and-tuples.md", "title": "Arrays and Tuples", "exists": true },
+            { "id": "7.4", "file": "7.4-enums.md", "title": "Enums", "exists": true },
+            { "id": "7.5", "file": "7.5-type-annotations.md", "title": "Type Annotations", "exists": true },
+            { "id": "7.6", "file": "7.6-interfaces.md", "title": "Interfaces", "exists": true },
+            { "id": "7.7", "file": "7.7-type-aliases.md", "title": "Type Aliases", "exists": true },
+            { "id": "7.8", "file": "7.8-union-and-intersection-types.md", "title": "Union and Intersection Types", "exists": true },
+            { "id": "7.9", "file": "7.9-literal-types.md", "title": "Literal Types", "exists": true },
+            { "id": "7.10", "file": "7.10-type-narrowing-and-type-guards.md", "title": "Type Narrowing and Type Guards", "exists": true },
+            { "id": "7.11", "file": "7.11-generics.md", "title": "Generics", "exists": true },
+            { "id": "7.12", "file": "7.12-utility-types.md", "title": "Utility Types", "exists": true },
+            { "id": "7.13", "file": "7.13-conditional-types.md", "title": "Conditional Types", "exists": true },
+            { "id": "7.14", "file": "7.14-mapped-types.md", "title": "Mapped Types", "exists": true },
+            { "id": "7.15", "file": "7.15-template-literal-types.md", "title": "Template Literal Types", "exists": true },
+            { "id": "7.16", "file": "7.16-type-assertions-and-the-satisfies-operator.md", "title": "Type Assertions and the satisfies Operator", "exists": true },
+            { "id": "7.17", "file": "7.17-declaration-files.md", "title": "Declaration Files", "exists": true },
+            { "id": "7.18", "file": "7.18-advanced-patterns.md", "title": "Advanced Patterns", "exists": true },
+            { "id": "7.19", "file": "7.19-decorators.md", "title": "Decorators", "exists": true }
+          ]
+        },
+        {
+          "chapterNumber": 8,
+          "name": "SOLID Principles & Design Patterns",
+          "folder": "section-08",
+          "topics": [
+            { "id": "8.1", "file": "8.1-single-responsibility-principle.md", "title": "Single Responsibility Principle (SRP)", "exists": true },
+            { "id": "8.2", "file": "8.2-open-closed-principle.md", "title": "Open/Closed Principle (OCP)", "exists": true },
+            { "id": "8.3", "file": "8.3-liskov-substitution-principle.md", "title": "Liskov Substitution Principle (LSP)", "exists": true },
+            { "id": "8.4", "file": "8.4-interface-segregation-principle.md", "title": "Interface Segregation Principle (ISP)", "exists": true },
+            { "id": "8.5", "file": "8.5-dependency-inversion-principle.md", "title": "Dependency Inversion Principle (DIP)", "exists": true },
+            { "id": "8.6", "file": "8.6-creational-patterns.md", "title": "Creational Patterns", "exists": true },
+            { "id": "8.7", "file": "8.7-structural-patterns.md", "title": "Structural Patterns", "exists": true },
+            { "id": "8.8", "file": "8.8-behavioral-patterns.md", "title": "Behavioral Patterns", "exists": true },
+            { "id": "8.9", "file": "8.9-patterns-in-frontend-context.md", "title": "Patterns in Frontend Context", "exists": true },
+            { "id": "8.10", "file": "8.10-anti-patterns-to-avoid.md", "title": "Anti-Patterns to Avoid", "exists": true }
+          ]
+        },
+        {
+          "chapterNumber": 9,
+          "name": "Git & Version Control",
+          "folder": "section-09",
+          "topics": [
+            { "id": "9.1", "file": "9.1-git-basics.md", "title": "Basics", "exists": true },
+            { "id": "9.2", "file": "9.2-branching-and-merging.md", "title": "Branching and Merging", "exists": true },
+            { "id": "9.3", "file": "9.3-remote-operations.md", "title": "Remote Operations", "exists": true },
+            { "id": "9.4", "file": "9.4-collaboration-and-pull-requests.md", "title": "Collaboration and Pull Requests", "exists": true },
+            { "id": "9.5", "file": "9.5-advanced-git.md", "title": "Advanced Git", "exists": true },
+            { "id": "9.6", "file": "9.6-branching-strategies.md", "title": "Branching Strategies", "exists": true },
+            { "id": "9.7", "file": "9.7-hooks-and-conventional-commits.md", "title": "Hooks and Conventional Commits", "exists": true },
+            { "id": "9.8", "file": "9.8-github-gitlab-features.md", "title": "GitHub / GitLab Features", "exists": true }
+          ]
+        }
+      ]
+    },
+    {
+      "partNumber": 2,
+      "name": "Angular Foundation",
+      "phase": "Phase 2",
+      "chapters": [
+        {
+          "chapterNumber": 10,
+          "name": "Developer Tools & Debugging",
+          "folder": "section-10",
+          "topics": [
+            { "id": "10.1", "file": "10.1-chrome-devtools.md", "title": "Chrome DevTools", "exists": false },
+            { "id": "10.2", "file": "10.2-angular-devtools.md", "title": "Angular DevTools", "exists": false },
+            { "id": "10.3", "file": "10.3-debugging-strategies.md", "title": "Debugging Strategies", "exists": false },
+            { "id": "10.4", "file": "10.4-vs-code-setup-for-angular.md", "title": "VS Code Setup for Angular", "exists": false },
+            { "id": "10.5", "file": "10.5-terminal-essentials.md", "title": "Terminal Essentials", "exists": false },
+            { "id": "10.6", "file": "10.6-browser-console-techniques.md", "title": "Browser Console Techniques", "exists": false }
+          ]
+        },
+        {
+          "chapterNumber": 11,
+          "name": "Angular Architecture, CLI & Project Setup",
+          "folder": "section-11",
+          "topics": [
+            { "id": "11.1", "file": "11.1-angular-cli-installation-and-commands.md", "title": "Angular CLI Installation and Commands", "exists": false },
+            { "id": "11.2", "file": "11.2-project-structure-and-file-conventions.md", "title": "Project Structure and File Conventions", "exists": false },
+            { "id": "11.3", "file": "11.3-standalone-components-architecture.md", "title": "Standalone Components Architecture", "exists": false },
+            { "id": "11.4", "file": "11.4-bootstrapping-with-bootstrapapplication.md", "title": "Bootstrapping with bootstrapApplication", "exists": false },
+            { "id": "11.5", "file": "11.5-angular-compilation.md", "title": "Angular Compilation (AOT, Esbuild)", "exists": false },
+            { "id": "11.6", "file": "11.6-workspace-configuration.md", "title": "Workspace Configuration", "exists": false },
+            { "id": "11.7", "file": "11.7-build-budgets-and-optimization-flags.md", "title": "Build Budgets and Optimization Flags", "exists": false },
+            { "id": "11.8", "file": "11.8-custom-builders-and-esbuild-vite-configuration.md", "title": "Custom Builders and Esbuild/Vite Configuration", "exists": false },
+            { "id": "11.9", "file": "11.9-environment-files-and-configuration.md", "title": "Environment Files and Configuration", "exists": false },
+            { "id": "11.10", "file": "11.10-custom-schematics.md", "title": "Custom Schematics", "exists": false },
+            { "id": "11.11", "file": "11.11-tailwind-css-setup.md", "title": "Tailwind CSS Setup", "exists": false },
+            { "id": "11.12", "file": "11.12-ngmodules-vs-standalone.md", "title": "NgModules (Legacy) vs Standalone (Default)", "exists": false },
+            { "id": "11.13", "file": "11.13-importprovidersfrom.md", "title": "importProvidersFrom() for Legacy Module Interop", "exists": false },
+            { "id": "11.14", "file": "11.14-migrating-from-ngmodules-to-standalone.md", "title": "Migrating from NgModules to Standalone", "exists": false },
+            { "id": "11.15", "file": "11.15-angular-signals-overview.md", "title": "Angular Signals Overview", "exists": false },
+            { "id": "11.16", "file": "11.16-dependency-injection-at-a-high-level.md", "title": "Dependency Injection at a High Level", "exists": false },
+            { "id": "11.17", "file": "11.17-template-syntax-overview.md", "title": "Template Syntax Overview", "exists": false },
+            { "id": "11.18", "file": "11.18-angulars-relationship-with-rxjs.md", "title": "Angular's Relationship with RxJS", "exists": false },
+            { "id": "11.19", "file": "11.19-angular-devtools.md", "title": "Angular DevTools", "exists": false }
+          ]
+        },
+        {
+          "chapterNumber": 12,
+          "name": "Components & Templates",
+          "folder": "section-12",
+          "topics": [
+            { "id": "12.1", "file": "12.1-component-basics.md", "title": "Component Basics", "exists": false },
+            { "id": "12.2", "file": "12.2-template-syntax.md", "title": "Template Syntax", "exists": false },
+            { "id": "12.3", "file": "12.3-control-flow.md", "title": "Control Flow", "exists": false },
+            { "id": "12.4", "file": "12.4-component-lifecycle-hooks.md", "title": "Component Lifecycle Hooks", "exists": false },
+            { "id": "12.5", "file": "12.5-signal-inputs.md", "title": "Signal Inputs", "exists": false },
+            { "id": "12.6", "file": "12.6-signal-outputs.md", "title": "Signal Outputs", "exists": false },
+            { "id": "12.7", "file": "12.7-model-inputs.md", "title": "Model Inputs", "exists": false },
+            { "id": "12.8", "file": "12.8-signal-view-queries.md", "title": "Signal View Queries", "exists": false },
+            { "id": "12.9", "file": "12.9-signal-content-queries.md", "title": "Signal Content Queries", "exists": false },
+            { "id": "12.10", "file": "12.10-template-reference-variables.md", "title": "Template Reference Variables", "exists": false },
+            { "id": "12.11", "file": "12.11-component-styling-and-viewencapsulation.md", "title": "Component Styling and ViewEncapsulation", "exists": false },
+            { "id": "12.12", "file": "12.12-deferrable-views.md", "title": "Deferrable Views", "exists": false },
+            { "id": "12.13", "file": "12.13-self-closing-component-tags.md", "title": "Self-Closing Component Tags", "exists": false },
+            { "id": "12.14", "file": "12.14-template-expressions-and-safe-navigation.md", "title": "Template Expressions and Safe Navigation", "exists": false }
+          ]
+        },
+        {
+          "chapterNumber": 13,
+          "name": "Data Binding & Directives",
+          "folder": "section-13",
+          "topics": [
+            { "id": "13.1", "file": "13.1-property-binding.md", "title": "Property Binding", "exists": false },
+            { "id": "13.2", "file": "13.2-class-and-style-binding.md", "title": "Class and Style Binding", "exists": false },
+            { "id": "13.3", "file": "13.3-event-binding-and-event-filtering.md", "title": "Event Binding and Event Filtering", "exists": false },
+            { "id": "13.4", "file": "13.4-two-way-binding.md", "title": "Two-Way Binding", "exists": false },
+            { "id": "13.5", "file": "13.5-built-in-attribute-directives.md", "title": "Built-in Attribute Directives", "exists": false },
+            { "id": "13.6", "file": "13.6-custom-attribute-directives.md", "title": "Custom Attribute Directives", "exists": false },
+            { "id": "13.7", "file": "13.7-directive-composition-api.md", "title": "Directive Composition API", "exists": false },
+            { "id": "13.8", "file": "13.8-ngoptimizedimage-directive.md", "title": "NgOptimizedImage Directive", "exists": false },
+            { "id": "13.9", "file": "13.9-ngcomponentoutlet-and-ngtemplateoutlet.md", "title": "NgComponentOutlet and NgTemplateOutlet", "exists": false },
+            { "id": "13.10", "file": "13.10-signal-based-reactivity-in-templates.md", "title": "Signal-Based Reactivity in Templates", "exists": false }
+          ]
+        },
+        {
+          "chapterNumber": 14,
+          "name": "Services & Dependency Injection",
+          "folder": "section-14",
+          "topics": [
+            { "id": "14.1", "file": "14.1-services-and-injectable.md", "title": "Services and @Injectable", "exists": false },
+            { "id": "14.2", "file": "14.2-the-inject-function.md", "title": "The inject() Function", "exists": false },
+            { "id": "14.3", "file": "14.3-hierarchical-injectors.md", "title": "Hierarchical Injectors", "exists": false },
+            { "id": "14.4", "file": "14.4-injection-tokens.md", "title": "Injection Tokens", "exists": false },
+            { "id": "14.5", "file": "14.5-provider-types.md", "title": "Provider Types", "exists": false },
+            { "id": "14.6", "file": "14.6-multi-providers.md", "title": "Multi Providers", "exists": false },
+            { "id": "14.7", "file": "14.7-di-resolution-modifiers.md", "title": "DI Resolution Modifiers", "exists": false },
+            { "id": "14.8", "file": "14.8-environment-injector.md", "title": "Environment Injector and runInInjectionContext", "exists": false },
+            { "id": "14.9", "file": "14.9-service-design-patterns.md", "title": "Service Design Patterns", "exists": false }
+          ]
+        },
+        {
+          "chapterNumber": 15,
+          "name": "Routing & Navigation",
+          "folder": "section-15",
+          "topics": [
+            { "id": "15.1", "file": "15.1-router-setup.md", "title": "Router Setup", "exists": false },
+            { "id": "15.2", "file": "15.2-route-configuration.md", "title": "Route Configuration", "exists": false },
+            { "id": "15.3", "file": "15.3-route-parameters.md", "title": "Route Parameters and input() Binding", "exists": false },
+            { "id": "15.4", "file": "15.4-query-parameters.md", "title": "Query Parameters", "exists": false },
+            { "id": "15.5", "file": "15.5-child-routes-and-nested-outlets.md", "title": "Child Routes and Nested Outlets", "exists": false },
+            { "id": "15.6", "file": "15.6-lazy-loading.md", "title": "Lazy Loading", "exists": false },
+            { "id": "15.7", "file": "15.7-functional-route-guards.md", "title": "Functional Route Guards", "exists": false },
+            { "id": "15.8", "file": "15.8-functional-route-resolvers.md", "title": "Functional Route Resolvers", "exists": false },
+            { "id": "15.9", "file": "15.9-router-events.md", "title": "Router Events", "exists": false },
+            { "id": "15.10", "file": "15.10-programmatic-navigation.md", "title": "Programmatic Navigation", "exists": false },
+            { "id": "15.11", "file": "15.11-route-data-and-page-titles.md", "title": "Route Data and Page Titles", "exists": false },
+            { "id": "15.12", "file": "15.12-view-transitions-api-integration.md", "title": "View Transitions API Integration", "exists": false }
+          ]
+        },
+        {
+          "chapterNumber": 16,
+          "name": "Forms",
+          "folder": "section-16",
+          "topics": [
+            { "id": "16.1", "file": "16.1-template-driven-forms.md", "title": "Template-Driven Forms", "exists": false },
+            { "id": "16.2", "file": "16.2-reactive-forms.md", "title": "Reactive Forms", "exists": false },
+            { "id": "16.3", "file": "16.3-typed-reactive-forms.md", "title": "Typed Reactive Forms", "exists": false },
+            { "id": "16.4", "file": "16.4-built-in-and-custom-validators.md", "title": "Built-in and Custom Validators", "exists": false },
+            { "id": "16.5", "file": "16.5-form-state-and-error-display.md", "title": "Form State and Error Display", "exists": false },
+            { "id": "16.6", "file": "16.6-dynamic-forms-with-formarray.md", "title": "Dynamic Forms with FormArray", "exists": false },
+            { "id": "16.7", "file": "16.7-custom-form-controls.md", "title": "Custom Form Controls (ControlValueAccessor)", "exists": false },
+            { "id": "16.8", "file": "16.8-signal-forms.md", "title": "Signal Forms", "exists": false },
+            { "id": "16.9", "file": "16.9-form-performance.md", "title": "Form Performance", "exists": false },
+            { "id": "16.10", "file": "16.10-form-patterns.md", "title": "Form Patterns", "exists": false }
+          ]
+        },
+        {
+          "chapterNumber": 17,
+          "name": "Pipes & Data Transformation",
+          "folder": "section-17",
+          "topics": [
+            { "id": "17.1", "file": "17.1-built-in-pipes.md", "title": "Built-in Pipes", "exists": false },
+            { "id": "17.2", "file": "17.2-pipe-parameters-and-chaining.md", "title": "Pipe Parameters and Chaining", "exists": false },
+            { "id": "17.3", "file": "17.3-custom-pipes.md", "title": "Custom Pipes", "exists": false },
+            { "id": "17.4", "file": "17.4-pure-vs-impure-pipes.md", "title": "Pure vs Impure Pipes", "exists": false },
+            { "id": "17.5", "file": "17.5-asyncpipe.md", "title": "AsyncPipe", "exists": false },
+            { "id": "17.6", "file": "17.6-pipes-vs-methods-in-templates.md", "title": "Pipes vs Methods in Templates", "exists": false },
+            { "id": "17.7", "file": "17.7-internationalization-with-pipes.md", "title": "Internationalization with Pipes", "exists": false },
+            { "id": "17.8", "file": "17.8-standalone-pipes.md", "title": "Standalone Pipes", "exists": false }
+          ]
+        }
+      ]
+    },
+    {
+      "partNumber": 3,
+      "name": "Angular Intermediate",
+      "phase": "Phase 3",
+      "chapters": [
+        {
+          "chapterNumber": 18,
+          "name": "RxJS & Reactive Programming",
+          "folder": "section-18",
+          "topics": [
+            { "id": "18.1", "file": "18.1-reactive-programming-concepts.md", "title": "Reactive Programming Concepts", "exists": false },
+            { "id": "18.2", "file": "18.2-observable-basics.md", "title": "Observable Basics", "exists": false },
+            { "id": "18.3", "file": "18.3-subjects.md", "title": "Subjects", "exists": false },
+            { "id": "18.4", "file": "18.4-creation-operators.md", "title": "Creation Operators", "exists": false },
+            { "id": "18.5", "file": "18.5-transformation-operators.md", "title": "Transformation Operators", "exists": false },
+            { "id": "18.6", "file": "18.6-filtering-operators.md", "title": "Filtering Operators", "exists": false },
+            { "id": "18.7", "file": "18.7-combination-operators.md", "title": "Combination Operators", "exists": false },
+            { "id": "18.8", "file": "18.8-error-handling-operators.md", "title": "Error Handling Operators", "exists": false },
+            { "id": "18.9", "file": "18.9-higher-order-observables.md", "title": "Higher-Order Observables", "exists": false },
+            { "id": "18.10", "file": "18.10-multicasting.md", "title": "Multicasting", "exists": false },
+            { "id": "18.11", "file": "18.11-memory-management.md", "title": "Memory Management", "exists": false },
+            { "id": "18.12", "file": "18.12-rxjs-interop-with-signals.md", "title": "RxJS Interop with Signals", "exists": false },
+            { "id": "18.13", "file": "18.13-common-patterns.md", "title": "Common Patterns", "exists": false }
+          ]
+        },
+        {
+          "chapterNumber": 19,
+          "name": "HTTP Client & API Integration",
+          "folder": "section-19",
+          "topics": [
+            { "id": "19.1", "file": "19.1-httpclient-setup.md", "title": "HttpClient Setup", "exists": false },
+            { "id": "19.2", "file": "19.2-request-methods-and-options.md", "title": "Request Methods and Options", "exists": false },
+            { "id": "19.3", "file": "19.3-typed-responses.md", "title": "Typed Responses", "exists": false },
+            { "id": "19.4", "file": "19.4-functional-interceptors.md", "title": "Functional Interceptors", "exists": false },
+            { "id": "19.5", "file": "19.5-interceptor-use-cases.md", "title": "Interceptor Use Cases", "exists": false },
+            { "id": "19.6", "file": "19.6-error-handling.md", "title": "Error Handling", "exists": false },
+            { "id": "19.7", "file": "19.7-file-upload-and-download.md", "title": "File Upload and Download with Progress", "exists": false },
+            { "id": "19.8", "file": "19.8-request-cancellation.md", "title": "Request Cancellation", "exists": false },
+            { "id": "19.9", "file": "19.9-caching-strategies.md", "title": "Caching Strategies", "exists": false },
+            { "id": "19.10", "file": "19.10-resource-and-rxresource-api.md", "title": "resource() and rxResource() API", "exists": false },
+            { "id": "19.11", "file": "19.11-testing-http.md", "title": "Testing HTTP", "exists": false }
+          ]
+        },
+        {
+          "chapterNumber": 20,
+          "name": "State Management",
+          "folder": "section-20",
+          "topics": [
+            { "id": "20.1", "file": "20.1-types-of-state.md", "title": "Types of State", "exists": false },
+            { "id": "20.2", "file": "20.2-component-level-state-with-signals.md", "title": "Component-Level State with Signals", "exists": false },
+            { "id": "20.3", "file": "20.3-service-based-state-with-signals.md", "title": "Service-Based State with Signals", "exists": false },
+            { "id": "20.4", "file": "20.4-ngrx-signal-store.md", "title": "NgRx Signal Store", "exists": false },
+            { "id": "20.5", "file": "20.5-ngrx-store.md", "title": "NgRx Store", "exists": false },
+            { "id": "20.6", "file": "20.6-ngrx-component-store.md", "title": "NgRx Component Store", "exists": false },
+            { "id": "20.7", "file": "20.7-state-design-patterns.md", "title": "State Design Patterns", "exists": false },
+            { "id": "20.8", "file": "20.8-immutability.md", "title": "Immutability", "exists": false },
+            { "id": "20.9", "file": "20.9-devtools-and-debugging-state.md", "title": "DevTools and Debugging State", "exists": false }
+          ]
+        },
+        {
+          "chapterNumber": 21,
+          "name": "Angular Signals & Reactivity",
+          "folder": "section-21",
+          "topics": [
+            { "id": "21.1", "file": "21.1-signal-set-update.md", "title": "signal(), set(), update()", "exists": false },
+            { "id": "21.2", "file": "21.2-computed.md", "title": "computed()", "exists": false },
+            { "id": "21.3", "file": "21.3-effect.md", "title": "effect()", "exists": false },
+            { "id": "21.4", "file": "21.4-signal-equality.md", "title": "Signal Equality and Custom Comparators", "exists": false },
+            { "id": "21.5", "file": "21.5-asreadonly.md", "title": "asReadonly()", "exists": false },
+            { "id": "21.6", "file": "21.6-linkedsignal.md", "title": "linkedSignal()", "exists": false },
+            { "id": "21.7", "file": "21.7-resource-and-rxresource.md", "title": "resource() and rxResource()", "exists": false },
+            { "id": "21.8", "file": "21.8-signal-inputs.md", "title": "Signal Inputs", "exists": false },
+            { "id": "21.9", "file": "21.9-signal-outputs.md", "title": "Signal Outputs", "exists": false },
+            { "id": "21.10", "file": "21.10-model-inputs.md", "title": "Model Inputs", "exists": false },
+            { "id": "21.11", "file": "21.11-signal-queries.md", "title": "Signal Queries", "exists": false },
+            { "id": "21.12", "file": "21.12-rxjs-interop.md", "title": "RxJS Interop", "exists": false },
+            { "id": "21.13", "file": "21.13-signals-vs-observables.md", "title": "Signals vs Observables", "exists": false },
+            { "id": "21.14", "file": "21.14-signal-based-component-architecture.md", "title": "Signal-Based Component Architecture", "exists": false },
+            { "id": "21.15", "file": "21.15-signals-in-services.md", "title": "Signals in Services", "exists": false },
+            { "id": "21.16", "file": "21.16-migration.md", "title": "Migration from Decorator-Based to Signal-Based APIs", "exists": false }
+          ]
+        },
+        {
+          "chapterNumber": 22,
+          "name": "Component Communication Patterns",
+          "folder": "section-22",
+          "topics": [
+            { "id": "22.1", "file": "22.1-parent-to-child.md", "title": "Parent to Child", "exists": false },
+            { "id": "22.2", "file": "22.2-child-to-parent.md", "title": "Child to Parent", "exists": false },
+            { "id": "22.3", "file": "22.3-two-way-binding.md", "title": "Two-Way Binding", "exists": false },
+            { "id": "22.4", "file": "22.4-through-shared-services.md", "title": "Through Shared Services", "exists": false },
+            { "id": "22.5", "file": "22.5-view-queries.md", "title": "View Queries", "exists": false },
+            { "id": "22.6", "file": "22.6-content-queries.md", "title": "Content Queries", "exists": false },
+            { "id": "22.7", "file": "22.7-template-reference-variables.md", "title": "Template Reference Variables", "exists": false },
+            { "id": "22.8", "file": "22.8-router-data.md", "title": "Router Data", "exists": false },
+            { "id": "22.9", "file": "22.9-pattern-selection-guide.md", "title": "Pattern Selection Guide", "exists": false }
+          ]
+        },
+        {
+          "chapterNumber": 23,
+          "name": "Content Projection & Dynamic Components",
+          "folder": "section-23",
+          "topics": [
+            { "id": "23.1", "file": "23.1-single-slot-content-projection.md", "title": "Single-Slot Content Projection", "exists": false },
+            { "id": "23.2", "file": "23.2-multi-slot-content-projection.md", "title": "Multi-Slot Content Projection", "exists": false },
+            { "id": "23.3", "file": "23.3-conditional-content-projection.md", "title": "Conditional Content Projection", "exists": false },
+            { "id": "23.4", "file": "23.4-ng-template-and-templateref.md", "title": "ng-template and TemplateRef", "exists": false },
+            { "id": "23.5", "file": "23.5-ng-container.md", "title": "ng-container", "exists": false },
+            { "id": "23.6", "file": "23.6-dynamic-component-creation.md", "title": "Dynamic Component Creation", "exists": false },
+            { "id": "23.7", "file": "23.7-ngcomponentoutlet.md", "title": "NgComponentOutlet", "exists": false },
+            { "id": "23.8", "file": "23.8-content-children-interaction.md", "title": "Content Children Interaction", "exists": false },
+            { "id": "23.9", "file": "23.9-patterns.md", "title": "Patterns", "exists": false }
+          ]
+        }
+      ]
+    },
+    {
+      "partNumber": 4,
+      "name": "Angular Advanced",
+      "phase": "Phase 4",
+      "chapters": [
+        {
+          "chapterNumber": 24,
+          "name": "Change Detection & Performance Optimization",
+          "folder": "section-24",
+          "topics": [
+            { "id": "24.1", "file": "24.1-change-detection-mechanism.md", "title": "Change Detection Mechanism", "exists": false },
+            { "id": "24.2", "file": "24.2-default-vs-onpush-strategy.md", "title": "Default vs OnPush Strategy", "exists": false },
+            { "id": "24.3", "file": "24.3-onpush-deep-dive.md", "title": "OnPush Deep Dive", "exists": false },
+            { "id": "24.4", "file": "24.4-changedetectorref.md", "title": "ChangeDetectorRef", "exists": false },
+            { "id": "24.5", "file": "24.5-signals-and-fine-grained-reactivity.md", "title": "Signals and Fine-Grained Reactivity", "exists": false },
+            { "id": "24.6", "file": "24.6-template-optimization.md", "title": "Template Optimization", "exists": false },
+            { "id": "24.7", "file": "24.7-lazy-loading-and-defer-blocks.md", "title": "Lazy Loading and @defer Blocks", "exists": false },
+            { "id": "24.8", "file": "24.8-bundle-optimization.md", "title": "Bundle Optimization", "exists": false },
+            { "id": "24.9", "file": "24.9-ngoptimizedimage.md", "title": "NgOptimizedImage and Image Performance", "exists": false },
+            { "id": "24.10", "file": "24.10-virtual-scrolling.md", "title": "Virtual Scrolling", "exists": false },
+            { "id": "24.11", "file": "24.11-preloading-strategies.md", "title": "Preloading Strategies", "exists": false },
+            { "id": "24.12", "file": "24.12-memory-leak-prevention.md", "title": "Memory Leak Prevention", "exists": false }
+          ]
+        },
+        {
+          "chapterNumber": 25,
+          "name": "Zoneless Angular",
+          "folder": "section-25",
+          "topics": [
+            { "id": "25.1", "file": "25.1-zonejs-overview.md", "title": "Zone.js Overview and Performance Cost", "exists": false },
+            { "id": "25.2", "file": "25.2-zoneless-change-detection.md", "title": "Zoneless Change Detection", "exists": false },
+            { "id": "25.3", "file": "25.3-signal-driven-rendering.md", "title": "Signal-Driven Rendering", "exists": false },
+            { "id": "25.4", "file": "25.4-migration-from-zone-based.md", "title": "Migration from Zone-Based to Zoneless", "exists": false },
+            { "id": "25.5", "file": "25.5-third-party-library-compatibility.md", "title": "Third-Party Library Compatibility", "exists": false },
+            { "id": "25.6", "file": "25.6-hybrid-mode.md", "title": "Hybrid Mode", "exists": false },
+            { "id": "25.7", "file": "25.7-writing-zone-agnostic-code.md", "title": "Writing Zone-Agnostic Code", "exists": false }
+          ]
+        },
+        {
+          "chapterNumber": 26,
+          "name": "Advanced Routing",
+          "folder": "section-26",
+          "topics": [
+            { "id": "26.1", "file": "26.1-functional-guards.md", "title": "Functional Guards", "exists": false },
+            { "id": "26.2", "file": "26.2-guard-patterns.md", "title": "Guard Patterns", "exists": false },
+            { "id": "26.3", "file": "26.3-functional-resolvers.md", "title": "Functional Resolvers", "exists": false },
+            { "id": "26.4", "file": "26.4-route-reuse-strategy.md", "title": "Route Reuse Strategy", "exists": false },
+            { "id": "26.5", "file": "26.5-dynamic-routes-from-api.md", "title": "Dynamic Routes from API", "exists": false },
+            { "id": "26.6", "file": "26.6-multi-layout-routing.md", "title": "Multi-Layout Routing", "exists": false },
+            { "id": "26.7", "file": "26.7-scroll-position-restoration.md", "title": "Scroll Position Restoration", "exists": false },
+            { "id": "26.8", "file": "26.8-router-performance.md", "title": "Router Performance", "exists": false }
+          ]
+        },
+        {
+          "chapterNumber": 27,
+          "name": "Custom Directives & Pipes (Advanced)",
+          "folder": "section-27",
+          "topics": [
+            { "id": "27.1", "file": "27.1-attribute-directives-advanced.md", "title": "Attribute Directives Advanced", "exists": false },
+            { "id": "27.2", "file": "27.2-structural-directives.md", "title": "Structural Directives", "exists": false },
+            { "id": "27.3", "file": "27.3-directive-composition-api.md", "title": "Directive Composition API", "exists": false },
+            { "id": "27.4", "file": "27.4-directive-patterns.md", "title": "Directive Patterns", "exists": false },
+            { "id": "27.5", "file": "27.5-exportable-directives.md", "title": "Exportable Directives", "exists": false },
+            { "id": "27.6", "file": "27.6-advanced-pipe-patterns.md", "title": "Advanced Pipe Patterns", "exists": false },
+            { "id": "27.7", "file": "27.7-directive-and-pipe-testing.md", "title": "Directive and Pipe Testing", "exists": false }
+          ]
+        },
+        {
+          "chapterNumber": 28,
+          "name": "Animation & Transitions",
+          "folder": "section-28",
+          "topics": [
+            { "id": "28.1", "file": "28.1-angular-animations-setup.md", "title": "Angular Animations Setup", "exists": false },
+            { "id": "28.2", "file": "28.2-triggers-states-styles-transitions.md", "title": "Triggers, States, Styles, Transitions", "exists": false },
+            { "id": "28.3", "file": "28.3-enter-leave-animations.md", "title": "Enter/Leave Animations", "exists": false },
+            { "id": "28.4", "file": "28.4-keyframe-animations.md", "title": "Keyframe Animations", "exists": false },
+            { "id": "28.5", "file": "28.5-query-and-stagger.md", "title": "Query and Stagger", "exists": false },
+            { "id": "28.6", "file": "28.6-route-animations.md", "title": "Route Animations", "exists": false },
+            { "id": "28.7", "file": "28.7-reusable-and-parameterized-animations.md", "title": "Reusable and Parameterized Animations", "exists": false },
+            { "id": "28.8", "file": "28.8-animationbuilder.md", "title": "AnimationBuilder", "exists": false },
+            { "id": "28.9", "file": "28.9-view-transitions-api.md", "title": "View Transitions API", "exists": false },
+            { "id": "28.10", "file": "28.10-css-vs-angular-animations.md", "title": "CSS Animations vs Angular Animations", "exists": false }
+          ]
+        },
+        {
+          "chapterNumber": 29,
+          "name": "Internationalization (i18n) & Localization",
+          "folder": "section-29",
+          "topics": [
+            { "id": "29.1", "file": "29.1-angular-built-in-i18n.md", "title": "Angular Built-in i18n", "exists": false },
+            { "id": "29.2", "file": "29.2-icu-message-format.md", "title": "ICU Message Format", "exists": false },
+            { "id": "29.3", "file": "29.3-translation-file-formats.md", "title": "Translation File Formats", "exists": false },
+            { "id": "29.4", "file": "29.4-locale-configuration.md", "title": "Locale Configuration", "exists": false },
+            { "id": "29.5", "file": "29.5-ngx-translate-transloco.md", "title": "ngx-translate / Transloco", "exists": false },
+            { "id": "29.6", "file": "29.6-rtl-support.md", "title": "RTL Support", "exists": false },
+            { "id": "29.7", "file": "29.7-dynamic-language-switching.md", "title": "Dynamic Language Switching", "exists": false },
+            { "id": "29.8", "file": "29.8-locale-aware-formatting.md", "title": "Locale-Aware Formatting", "exists": false }
+          ]
+        },
+        {
+          "chapterNumber": 30,
+          "name": "Web Security in Angular",
+          "folder": "section-30",
+          "topics": [
+            { "id": "30.1", "file": "30.1-angulars-built-in-security-model.md", "title": "Angular's Built-in Security Model", "exists": false },
+            { "id": "30.2", "file": "30.2-xss-prevention.md", "title": "Cross-Site Scripting (XSS) Prevention", "exists": false },
+            { "id": "30.3", "file": "30.3-domsanitizer.md", "title": "DomSanitizer and bypassSecurityTrust Methods", "exists": false },
+            { "id": "30.4", "file": "30.4-trusted-types.md", "title": "Trusted Types", "exists": false },
+            { "id": "30.5", "file": "30.5-safe-innerhtml-handling.md", "title": "Safe innerHTML Handling", "exists": false },
+            { "id": "30.6", "file": "30.6-content-security-policy.md", "title": "Content Security Policy (CSP) with Angular", "exists": false },
+            { "id": "30.7", "file": "30.7-csrf-xsrf-protection.md", "title": "Cross-Site Request Forgery (CSRF/XSRF) Protection", "exists": false },
+            { "id": "30.8", "file": "30.8-secure-http-headers.md", "title": "Secure HTTP Headers", "exists": false },
+            { "id": "30.9", "file": "30.9-dependency-auditing.md", "title": "Dependency Auditing and Supply Chain Security", "exists": false },
+            { "id": "30.10", "file": "30.10-angular-security-best-practices.md", "title": "Angular-Specific Security Best Practices", "exists": false }
+          ]
+        },
+        {
+          "chapterNumber": 31,
+          "name": "Server-Side Rendering & Hydration",
+          "folder": "section-31",
+          "topics": [
+            { "id": "31.1", "file": "31.1-why-ssr.md", "title": "Why SSR", "exists": false },
+            { "id": "31.2", "file": "31.2-angular-ssr-setup.md", "title": "Angular SSR Setup", "exists": false },
+            { "id": "31.3", "file": "31.3-hydration-and-event-replay.md", "title": "Hydration and Event Replay", "exists": false },
+            { "id": "31.4", "file": "31.4-incremental-hydration.md", "title": "Incremental Hydration", "exists": false },
+            { "id": "31.5", "file": "31.5-defer-with-ssr.md", "title": "@defer with SSR", "exists": false },
+            { "id": "31.6", "file": "31.6-platform-detection.md", "title": "Platform Detection", "exists": false },
+            { "id": "31.7", "file": "31.7-http-transfer-state.md", "title": "HTTP Transfer State", "exists": false },
+            { "id": "31.8", "file": "31.8-pre-rendering-ssg.md", "title": "Pre-rendering (SSG) and Hybrid Rendering", "exists": false },
+            { "id": "31.9", "file": "31.9-meta-tags-and-seo.md", "title": "Meta Tags and SEO", "exists": false },
+            { "id": "31.10", "file": "31.10-deployment.md", "title": "Deployment", "exists": false }
+          ]
+        }
+      ]
+    },
+    {
+      "partNumber": 5,
+      "name": "Real-World Engineering",
+      "phase": "Phase 5",
+      "chapters": [
+        {
+          "chapterNumber": 32,
+          "name": "Testing",
+          "folder": "section-32",
+          "topics": [
+            { "id": "32.1", "file": "32.1-testing-philosophy.md", "title": "Testing Philosophy and Testing Pyramid", "exists": false },
+            { "id": "32.2", "file": "32.2-unit-testing-setup.md", "title": "Unit Testing Setup", "exists": false },
+            { "id": "32.3", "file": "32.3-component-testing.md", "title": "Component Testing", "exists": false },
+            { "id": "32.4", "file": "32.4-testing-signal-based-components.md", "title": "Testing Signal-Based Components", "exists": false },
+            { "id": "32.5", "file": "32.5-service-testing.md", "title": "Service Testing", "exists": false },
+            { "id": "32.6", "file": "32.6-http-testing.md", "title": "HTTP Testing", "exists": false },
+            { "id": "32.7", "file": "32.7-pipe-and-directive-testing.md", "title": "Pipe and Directive Testing", "exists": false },
+            { "id": "32.8", "file": "32.8-form-testing.md", "title": "Form Testing", "exists": false },
+            { "id": "32.9", "file": "32.9-routing-testing.md", "title": "Routing Testing", "exists": false },
+            { "id": "32.10", "file": "32.10-component-harnesses.md", "title": "Component Harnesses", "exists": false },
+            { "id": "32.11", "file": "32.11-e2e-testing.md", "title": "E2E Testing", "exists": false },
+            { "id": "32.12", "file": "32.12-testing-best-practices.md", "title": "Testing Best Practices", "exists": false }
+          ]
+        },
+        {
+          "chapterNumber": 33,
+          "name": "Design Systems & Component Libraries",
+          "folder": "section-33",
+          "topics": [
+            { "id": "33.1", "file": "33.1-design-system-concepts.md", "title": "Design System Concepts", "exists": false },
+            { "id": "33.2", "file": "33.2-component-architecture.md", "title": "Component Architecture", "exists": false },
+            { "id": "33.3", "file": "33.3-theming.md", "title": "Theming", "exists": false },
+            { "id": "33.4", "file": "33.4-angular-cdk.md", "title": "Angular CDK", "exists": false },
+            { "id": "33.5", "file": "33.5-angular-material.md", "title": "Angular Material", "exists": false },
+            { "id": "33.6", "file": "33.6-building-a-component-library.md", "title": "Building a Component Library", "exists": false },
+            { "id": "33.7", "file": "33.7-component-api-design.md", "title": "Component API Design", "exists": false },
+            { "id": "33.8", "file": "33.8-storybook-for-angular.md", "title": "Storybook for Angular", "exists": false },
+            { "id": "33.9", "file": "33.9-design-tokens.md", "title": "Design Tokens and Multi-Brand Support", "exists": false },
+            { "id": "33.10", "file": "33.10-accessibility-in-components.md", "title": "Accessibility in Components", "exists": false }
+          ]
+        },
+        {
+          "chapterNumber": 34,
+          "name": "Monorepos with NX",
+          "folder": "section-34",
+          "topics": [
+            { "id": "34.1", "file": "34.1-monorepo-concepts.md", "title": "Monorepo Concepts", "exists": false },
+            { "id": "34.2", "file": "34.2-nx-workspace-setup.md", "title": "NX Workspace Setup", "exists": false },
+            { "id": "34.3", "file": "34.3-nx-generators.md", "title": "NX Generators", "exists": false },
+            { "id": "34.4", "file": "34.4-library-types.md", "title": "Library Types", "exists": false },
+            { "id": "34.5", "file": "34.5-dependency-graph.md", "title": "Dependency Graph and Module Boundaries", "exists": false },
+            { "id": "34.6", "file": "34.6-affected-commands-and-caching.md", "title": "Affected Commands and Caching", "exists": false },
+            { "id": "34.7", "file": "34.7-task-pipeline.md", "title": "Task Pipeline and Parallel Execution", "exists": false },
+            { "id": "34.8", "file": "34.8-nx-plugins.md", "title": "NX Plugins", "exists": false },
+            { "id": "34.9", "file": "34.9-build-tooling.md", "title": "Build Tooling", "exists": false },
+            { "id": "34.10", "file": "34.10-ci-cd-with-nx.md", "title": "CI/CD with NX", "exists": false },
+            { "id": "34.11", "file": "34.11-custom-generators.md", "title": "Custom Generators", "exists": false }
+          ]
+        },
+        {
+          "chapterNumber": 35,
+          "name": "Real-Time & Advanced API Patterns",
+          "folder": "section-35",
+          "topics": [
+            { "id": "35.1", "file": "35.1-restful-api-design.md", "title": "RESTful API Design Conventions", "exists": false },
+            { "id": "35.2", "file": "35.2-pagination-strategies.md", "title": "Pagination Strategies", "exists": false },
+            { "id": "35.3", "file": "35.3-websocket-integration.md", "title": "WebSocket Integration", "exists": false },
+            { "id": "35.4", "file": "35.4-server-sent-events.md", "title": "Server-Sent Events (SSE) with Angular", "exists": false },
+            { "id": "35.5", "file": "35.5-graphql-with-angular.md", "title": "GraphQL with Angular", "exists": false },
+            { "id": "35.6", "file": "35.6-optimistic-ui-updates.md", "title": "Optimistic UI Updates", "exists": false },
+            { "id": "35.7", "file": "35.7-polling-and-long-polling.md", "title": "Polling and Long-Polling Patterns", "exists": false },
+            { "id": "35.8", "file": "35.8-backend-for-frontend.md", "title": "Backend for Frontend (BFF) Pattern", "exists": false },
+            { "id": "35.9", "file": "35.9-api-versioning.md", "title": "API Versioning and Error Response Formats", "exists": false },
+            { "id": "35.10", "file": "35.10-rate-limiting.md", "title": "Rate Limiting and Request Queuing", "exists": false }
+          ]
+        },
+        {
+          "chapterNumber": 36,
+          "name": "Authentication & Authorization",
+          "folder": "section-36",
+          "topics": [
+            { "id": "36.1", "file": "36.1-auth-concepts.md", "title": "Auth Concepts", "exists": false },
+            { "id": "36.2", "file": "36.2-jwt.md", "title": "JWT", "exists": false },
+            { "id": "36.3", "file": "36.3-login-flow-and-token-storage.md", "title": "Login Flow and Token Storage", "exists": false },
+            { "id": "36.4", "file": "36.4-http-interceptors-for-auth.md", "title": "HTTP Interceptors for Auth", "exists": false },
+            { "id": "36.5", "file": "36.5-route-guards-for-auth.md", "title": "Route Guards for Auth", "exists": false },
+            { "id": "36.6", "file": "36.6-role-based-access-control.md", "title": "Role-Based Access Control (RBAC)", "exists": false },
+            { "id": "36.7", "file": "36.7-auth-libraries.md", "title": "Auth Libraries", "exists": false },
+            { "id": "36.8", "file": "36.8-multi-tenant-authentication.md", "title": "Multi-Tenant Authentication", "exists": false }
+          ]
+        },
+        {
+          "chapterNumber": 37,
+          "name": "Error Handling & Logging",
+          "folder": "section-37",
+          "topics": [
+            { "id": "37.1", "file": "37.1-global-error-handler.md", "title": "Global Error Handler", "exists": false },
+            { "id": "37.2", "file": "37.2-http-error-handling.md", "title": "HTTP Error Handling", "exists": false },
+            { "id": "37.3", "file": "37.3-user-facing-error-ui.md", "title": "User-Facing Error UI", "exists": false },
+            { "id": "37.4", "file": "37.4-logging-service.md", "title": "Logging Service", "exists": false },
+            { "id": "37.5", "file": "37.5-remote-logging.md", "title": "Remote Logging", "exists": false },
+            { "id": "37.6", "file": "37.6-retry-strategies.md", "title": "Retry Strategies", "exists": false },
+            { "id": "37.7", "file": "37.7-offline-handling.md", "title": "Offline Handling and Request Queuing", "exists": false },
+            { "id": "37.8", "file": "37.8-performance-monitoring.md", "title": "Performance Monitoring", "exists": false }
+          ]
+        },
+        {
+          "chapterNumber": 38,
+          "name": "Accessibility (a11y)",
+          "folder": "section-38",
+          "topics": [
+            { "id": "38.1", "file": "38.1-wcag-guidelines.md", "title": "WCAG Guidelines and Conformance Levels", "exists": false },
+            { "id": "38.2", "file": "38.2-semantic-html-for-accessibility.md", "title": "Semantic HTML for Accessibility", "exists": false },
+            { "id": "38.3", "file": "38.3-aria-attributes.md", "title": "ARIA Attributes and Live Regions", "exists": false },
+            { "id": "38.4", "file": "38.4-keyboard-navigation.md", "title": "Keyboard Navigation and Focus Management", "exists": false },
+            { "id": "38.5", "file": "38.5-screen-reader-testing.md", "title": "Screen Reader Testing", "exists": false },
+            { "id": "38.6", "file": "38.6-color-and-contrast.md", "title": "Color and Contrast", "exists": false },
+            { "id": "38.7", "file": "38.7-forms-accessibility.md", "title": "Forms Accessibility", "exists": false },
+            { "id": "38.8", "file": "38.8-angular-cdk-a11y.md", "title": "Angular CDK a11y", "exists": false },
+            { "id": "38.9", "file": "38.9-accessible-component-patterns.md", "title": "Accessible Component Patterns", "exists": false },
+            { "id": "38.10", "file": "38.10-testing-accessibility.md", "title": "Testing Accessibility", "exists": false }
+          ]
+        },
+        {
+          "chapterNumber": 39,
+          "name": "Progressive Web Apps (PWA)",
+          "folder": "section-39",
+          "topics": [
+            { "id": "39.1", "file": "39.1-pwa-concepts.md", "title": "PWA Concepts", "exists": false },
+            { "id": "39.2", "file": "39.2-service-workers.md", "title": "Service Workers and Caching Strategies", "exists": false },
+            { "id": "39.3", "file": "39.3-angular-pwa-setup.md", "title": "Angular PWA Setup", "exists": false },
+            { "id": "39.4", "file": "39.4-app-manifest.md", "title": "App Manifest", "exists": false },
+            { "id": "39.5", "file": "39.5-offline-support.md", "title": "Offline Support", "exists": false },
+            { "id": "39.6", "file": "39.6-push-notifications.md", "title": "Push Notifications", "exists": false },
+            { "id": "39.7", "file": "39.7-app-updates.md", "title": "App Updates", "exists": false },
+            { "id": "39.8", "file": "39.8-installation-prompts.md", "title": "Installation Prompts", "exists": false },
+            { "id": "39.9", "file": "39.9-pwa-performance.md", "title": "PWA Performance and Lighthouse Audit", "exists": false }
+          ]
+        }
+      ]
+    },
+    {
+      "partNumber": 6,
+      "name": "Production & Deployment",
+      "phase": "Phase 6",
+      "chapters": [
+        {
+          "chapterNumber": 40,
+          "name": "Building a Production-Grade Project",
+          "folder": "section-40",
+          "topics": [
+            { "id": "40.1", "file": "40.1-architecture-design.md", "title": "Architecture Design", "exists": false },
+            { "id": "40.2", "file": "40.2-project-setup.md", "title": "Project Setup", "exists": false },
+            { "id": "40.3", "file": "40.3-core-features.md", "title": "Core Features", "exists": false },
+            { "id": "40.4", "file": "40.4-ui-development.md", "title": "UI Development", "exists": false },
+            { "id": "40.5", "file": "40.5-data-management.md", "title": "Data Management", "exists": false },
+            { "id": "40.6", "file": "40.6-performance.md", "title": "Performance", "exists": false },
+            { "id": "40.7", "file": "40.7-testing.md", "title": "Testing", "exists": false },
+            { "id": "40.8", "file": "40.8-accessibility.md", "title": "Accessibility", "exists": false },
+            { "id": "40.9", "file": "40.9-documentation.md", "title": "Documentation", "exists": false }
+          ]
+        },
+        {
+          "chapterNumber": 41,
+          "name": "CI/CD & Deployment",
+          "folder": "section-41",
+          "topics": [
+            { "id": "41.1", "file": "41.1-ci-cd-concepts.md", "title": "CI/CD Concepts and Pipeline Stages", "exists": false },
+            { "id": "41.2", "file": "41.2-github-actions-gitlab-ci.md", "title": "GitHub Actions / GitLab CI", "exists": false },
+            { "id": "41.3", "file": "41.3-angular-production-builds.md", "title": "Angular Production Builds", "exists": false },
+            { "id": "41.4", "file": "41.4-docker.md", "title": "Docker", "exists": false },
+            { "id": "41.5", "file": "41.5-cloud-deployment.md", "title": "Cloud Deployment", "exists": false },
+            { "id": "41.6", "file": "41.6-ssr-deployment.md", "title": "SSR Deployment", "exists": false },
+            { "id": "41.7", "file": "41.7-environment-management.md", "title": "Environment Management and Feature Flags", "exists": false },
+            { "id": "41.8", "file": "41.8-performance-budgets.md", "title": "Performance Budgets", "exists": false },
+            { "id": "41.9", "file": "41.9-production-monitoring.md", "title": "Production Monitoring", "exists": false },
+            { "id": "41.10", "file": "41.10-rollback-strategies.md", "title": "Rollback Strategies", "exists": false }
+          ]
+        },
+        {
+          "chapterNumber": 42,
+          "name": "Code Quality & Architecture Patterns",
+          "folder": "section-42",
+          "topics": [
+            { "id": "42.1", "file": "42.1-angular-style-guide.md", "title": "Angular Style Guide and Naming Conventions", "exists": false },
+            { "id": "42.2", "file": "42.2-eslint-for-angular.md", "title": "ESLint for Angular", "exists": false },
+            { "id": "42.3", "file": "42.3-architecture-patterns.md", "title": "Architecture Patterns", "exists": false },
+            { "id": "42.4", "file": "42.4-performance-anti-patterns.md", "title": "Performance Anti-Patterns", "exists": false },
+            { "id": "42.5", "file": "42.5-technical-debt.md", "title": "Technical Debt and Refactoring Strategies", "exists": false }
+          ]
+        },
+        {
+          "chapterNumber": 43,
+          "name": "Micro-Frontends",
+          "folder": "section-43",
+          "topics": [
+            { "id": "43.1", "file": "43.1-micro-frontend-concepts.md", "title": "Micro-Frontend Concepts", "exists": false },
+            { "id": "43.2", "file": "43.2-module-federation.md", "title": "Module Federation", "exists": false },
+            { "id": "43.3", "file": "43.3-native-federation.md", "title": "Native Federation for Angular", "exists": false },
+            { "id": "43.4", "file": "43.4-single-spa.md", "title": "Single-SPA with Angular", "exists": false },
+            { "id": "43.5", "file": "43.5-shell-application-architecture.md", "title": "Shell Application Architecture", "exists": false },
+            { "id": "43.6", "file": "43.6-shared-dependencies.md", "title": "Shared Dependencies and Version Management", "exists": false },
+            { "id": "43.7", "file": "43.7-routing-across-micro-frontends.md", "title": "Routing Across Micro-Frontends", "exists": false },
+            { "id": "43.8", "file": "43.8-communication-between-micro-frontends.md", "title": "Communication Between Micro-Frontends", "exists": false },
+            { "id": "43.9", "file": "43.9-deployment-and-versioning.md", "title": "Deployment and Versioning Strategies", "exists": false },
+            { "id": "43.10", "file": "43.10-trade-offs-and-anti-patterns.md", "title": "Trade-offs and Anti-Patterns", "exists": false }
+          ]
+        },
+        {
+          "chapterNumber": 44,
+          "name": "Angular Migration Strategies",
+          "folder": "section-44",
+          "topics": [
+            { "id": "44.1", "file": "44.1-angular-update-process.md", "title": "Angular Update Process", "exists": false },
+            { "id": "44.2", "file": "44.2-major-version-upgrades.md", "title": "Major Version Upgrades", "exists": false },
+            { "id": "44.3", "file": "44.3-standalone-migration-schematic.md", "title": "Standalone Migration Schematic", "exists": false },
+            { "id": "44.4", "file": "44.4-signal-migration.md", "title": "Signal Migration", "exists": false },
+            { "id": "44.5", "file": "44.5-control-flow-migration.md", "title": "Control Flow Migration", "exists": false },
+            { "id": "44.6", "file": "44.6-zoneless-migration.md", "title": "Zoneless Migration", "exists": false },
+            { "id": "44.7", "file": "44.7-rxjs-migration.md", "title": "RxJS Migration", "exists": false },
+            { "id": "44.8", "file": "44.8-third-party-library-updates.md", "title": "Third-Party Library Updates and Compatibility", "exists": false }
+          ]
+        }
+      ]
+    }
+  ]
+}
