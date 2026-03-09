@@ -157,90 +157,90 @@
 - [x] 9.8 GitHub / GitLab Features -> `output/section-09/9.8-github-gitlab-features.md`
 
 ### Section 10: Developer Tools & Debugging
-- [ ] 10.1 Chrome DevTools
-- [ ] 10.2 Angular DevTools
-- [ ] 10.3 Debugging Strategies
-- [ ] 10.4 VS Code Setup for Angular
-- [ ] 10.5 Terminal Essentials
-- [ ] 10.6 Browser Console Techniques
+- [x] 10.1 Chrome DevTools -> `output/section-10/10.1-chrome-devtools.md`
+- [x] 10.2 Angular DevTools -> `output/section-10/10.2-angular-devtools.md`
+- [x] 10.3 Debugging Strategies -> `output/section-10/10.3-debugging-strategies.md`
+- [x] 10.4 VS Code Setup for Angular -> `output/section-10/10.4-vs-code-setup-for-angular.md`
+- [x] 10.5 Terminal Essentials -> `output/section-10/10.5-terminal-essentials.md`
+- [x] 10.6 Browser Console Techniques -> `output/section-10/10.6-browser-console-techniques.md`
 
 ---
 
 ## Phase 2: Angular Foundation
 
 ### Section 11: Angular Architecture, CLI & Project Setup
-- [ ] 11.1 Angular CLI Installation and Commands
-- [ ] 11.2 Project Structure and File Conventions
-- [ ] 11.3 Standalone Components Architecture
-- [ ] 11.4 Bootstrapping with `bootstrapApplication`
-- [ ] 11.5 Angular Compilation (AOT, Esbuild)
-- [ ] 11.6 Workspace Configuration (`angular.json` Deep Dive)
-- [ ] 11.7 Build Budgets and Optimization Flags
-- [ ] 11.8 Custom Builders and Esbuild/Vite Configuration
-- [ ] 11.9 Environment Files and Configuration
-- [ ] 11.10 Custom Schematics
-- [ ] 11.11 Tailwind CSS Setup
-- [ ] 11.12 NgModules (Legacy) vs Standalone (Default)
-- [ ] 11.13 `importProvidersFrom()` for Legacy Module Interop
-- [ ] 11.14 Migrating from NgModules to Standalone
-- [ ] 11.15 Angular Signals Overview
-- [ ] 11.16 Dependency Injection at a High Level
-- [ ] 11.17 Template Syntax Overview
-- [ ] 11.18 Angular's Relationship with RxJS
-- [ ] 11.19 Angular DevTools
+- [x] 11.1 Angular CLI Installation and Commands -> `output/section-11/11.1-angular-cli-installation-and-commands.md`
+- [x] 11.2 Project Structure and File Conventions -> `output/section-11/11.2-project-structure-and-file-conventions.md`
+- [x] 11.3 Standalone Components Architecture -> `output/section-11/11.3-standalone-components-architecture.md`
+- [x] 11.4 Bootstrapping with `bootstrapApplication` -> `output/section-11/11.4-bootstrapping-with-bootstrap-application.md`
+- [x] 11.5 Angular Compilation (AOT, Esbuild) -> `output/section-11/11.5-angular-compilation.md`
+- [x] 11.6 Workspace Configuration (`angular.json` Deep Dive) -> `output/section-11/11.6-workspace-configuration.md`
+- [x] 11.7 Build Budgets and Optimization Flags -> `output/section-11/11.7-build-budgets-and-optimization-flags.md`
+- [x] 11.8 Custom Builders and Esbuild/Vite Configuration -> `output/section-11/11.8-custom-builders-and-esbuild-vite-configuration.md`
+- [x] 11.9 Environment Files and Configuration -> `output/section-11/11.9-environment-files-and-configuration.md`
+- [x] 11.10 Custom Schematics -> `output/section-11/11.10-custom-schematics.md`
+- [x] 11.11 Tailwind CSS Setup -> `output/section-11/11.11-tailwind-css-setup.md`
+- [x] 11.12 NgModules (Legacy) vs Standalone (Default) -> `output/section-11/11.12-ngmodules-legacy-vs-standalone-default.md`
+- [x] 11.13 `importProvidersFrom()` for Legacy Module Interop -> `output/section-11/11.13-import-providers-from-legacy-module-interop.md`
+- [x] 11.14 Migrating from NgModules to Standalone -> `output/section-11/11.14-migrating-from-ngmodules-to-standalone.md`
+- [x] 11.15 Angular Signals Overview -> `output/section-11/11.15-angular-signals-overview.md`
+- [x] 11.16 Dependency Injection at a High Level -> `output/section-11/11.16-dependency-injection-at-a-high-level.md`
+- [x] 11.17 Template Syntax Overview -> `output/section-11/11.17-template-syntax-overview.md`
+- [x] 11.18 Angular's Relationship with RxJS -> `output/section-11/11.18-angulars-relationship-with-rxjs.md`
+- [x] 11.19 Angular DevTools -> `output/section-11/11.19-angular-devtools.md`
 
 ### Section 12: Components & Templates
-- [ ] 12.1 Component Basics (Standalone by Default)
-- [ ] 12.2 Template Syntax
-- [ ] 12.3 Control Flow
-- [ ] 12.4 Component Lifecycle Hooks
-- [ ] 12.5 Signal Inputs
-- [ ] 12.6 Signal Outputs
-- [ ] 12.7 Model Inputs
-- [ ] 12.8 Signal View Queries
-- [ ] 12.9 Signal Content Queries
-- [ ] 12.10 Template Reference Variables
-- [ ] 12.11 Component Styling and ViewEncapsulation
-- [ ] 12.12 Deferrable Views
-- [ ] 12.13 Self-Closing Component Tags
-- [ ] 12.14 Template Expressions and Safe Navigation
+- [x] 12.1 Component Basics (Standalone by Default) -> `output/section-12/12.1-component-basics-standalone-by-default.md`
+- [x] 12.2 Template Syntax (Interpolation, Property/Event/Two-Way Binding) -> `output/section-12/12.2-template-syntax.md`
+- [x] 12.3 Control Flow -> `output/section-12/12.3-control-flow.md`
+- [x] 12.4 Component Lifecycle Hooks -> `output/section-12/12.4-component-lifecycle-hooks.md`
+- [x] 12.5 Signal Inputs -> `output/section-12/12.5-signal-inputs.md`
+- [x] 12.6 Signal Outputs -> `output/section-12/12.6-signal-outputs.md`
+- [x] 12.7 Model Inputs -> `output/section-12/12.7-model-inputs.md`
+- [x] 12.8 Signal View Queries -> `output/section-12/12.8-signal-view-queries.md`
+- [x] 12.9 Signal Content Queries -> `output/section-12/12.9-signal-content-queries.md`
+- [x] 12.10 Template Reference Variables -> `output/section-12/12.10-template-reference-variables.md`
+- [x] 12.11 Component Styling and ViewEncapsulation -> `output/section-12/12.11-component-styling-and-viewencapsulation.md`
+- [x] 12.12 Deferrable Views -> `output/section-12/12.12-deferrable-views.md`
+- [x] 12.13 Self-Closing Component Tags -> `output/section-12/12.13-self-closing-component-tags.md`
+- [x] 12.14 Template Expressions and Safe Navigation -> `output/section-12/12.14-template-expressions-and-safe-navigation.md`
 
 ### Section 13: Data Binding & Directives
-- [ ] 13.1 Property Binding
-- [ ] 13.2 Class and Style Binding
-- [ ] 13.3 Event Binding and Event Filtering
-- [ ] 13.4 Two-Way Binding
-- [ ] 13.5 Built-in Attribute Directives
-- [ ] 13.6 Custom Attribute Directives
-- [ ] 13.7 Directive Composition API
-- [ ] 13.8 `NgOptimizedImage` Directive
-- [ ] 13.9 `NgComponentOutlet` and `NgTemplateOutlet`
-- [ ] 13.10 Signal-Based Reactivity in Templates
+- [x] 13.1 Property Binding -> `output/section-13/13.1-property-binding.md`
+- [x] 13.2 Class and Style Binding -> `output/section-13/13.2-class-and-style-binding.md`
+- [x] 13.3 Event Binding and Event Filtering -> `output/section-13/13.3-event-binding-and-event-filtering.md`
+- [x] 13.4 Two-Way Binding -> `output/section-13/13.4-two-way-binding.md`
+- [x] 13.5 Built-in Attribute Directives -> `output/section-13/13.5-built-in-attribute-directives.md`
+- [x] 13.6 Custom Attribute Directives -> `output/section-13/13.6-custom-attribute-directives.md`
+- [x] 13.7 Directive Composition API -> `output/section-13/13.7-directive-composition-api.md`
+- [x] 13.8 `NgOptimizedImage` Directive -> `output/section-13/13.8-ngoptimizedimage-directive.md`
+- [x] 13.9 `NgComponentOutlet` and `NgTemplateOutlet` -> `output/section-13/13.9-ngcomponentoutlet-and-ngtemplateoutlet.md`
+- [x] 13.10 Signal-Based Reactivity in Templates -> `output/section-13/13.10-signal-based-reactivity-in-templates.md`
 
 ### Section 14: Services & Dependency Injection
-- [ ] 14.1 Services and `@Injectable`
-- [ ] 14.2 The `inject()` Function
-- [ ] 14.3 Hierarchical Injectors
-- [ ] 14.4 Injection Tokens
-- [ ] 14.5 Provider Types
-- [ ] 14.6 Multi Providers
-- [ ] 14.7 DI Resolution Modifiers
-- [ ] 14.8 Environment Injector and `runInInjectionContext`
-- [ ] 14.9 Service Design Patterns
+- [x] 14.1 Services and `@Injectable` -> `output/section-14/14.1-services-and-injectable.md`
+- [x] 14.2 The `inject()` Function -> `output/section-14/14.2-the-inject-function.md`
+- [x] 14.3 Hierarchical Injectors -> `output/section-14/14.3-hierarchical-injectors.md`
+- [x] 14.4 Injection Tokens -> `output/section-14/14.4-injection-tokens.md`
+- [x] 14.5 Provider Types -> `output/section-14/14.5-provider-types.md`
+- [x] 14.6 Multi Providers -> `output/section-14/14.6-multi-providers.md`
+- [x] 14.7 DI Resolution Modifiers -> `output/section-14/14.7-di-resolution-modifiers.md`
+- [x] 14.8 Environment Injector and `runInInjectionContext` -> `output/section-14/14.8-environment-injector-and-runInInjectionContext.md`
+- [x] 14.9 Service Design Patterns -> `output/section-14/14.9-service-design-patterns.md`
 
 ### Section 15: Routing & Navigation
-- [ ] 15.1 Router Setup
-- [ ] 15.2 Route Configuration
-- [ ] 15.3 Route Parameters and `input()` Binding
-- [ ] 15.4 Query Parameters
-- [ ] 15.5 Child Routes and Nested Outlets
-- [ ] 15.6 Lazy Loading
-- [ ] 15.7 Functional Route Guards
-- [ ] 15.8 Functional Route Resolvers
-- [ ] 15.9 Router Events
-- [ ] 15.10 Programmatic Navigation
-- [ ] 15.11 Route Data and Page Titles
-- [ ] 15.12 View Transitions API Integration
+- [x] 15.1 Router Setup -> `output/section-15/15.1-router-setup.md`
+- [x] 15.2 Route Configuration -> `output/section-15/15.2-route-configuration.md`
+- [x] 15.3 Route Parameters and `input()` Binding -> `output/section-15/15.3-route-parameters-and-input-binding.md`
+- [x] 15.4 Query Parameters -> `output/section-15/15.4-query-parameters.md`
+- [x] 15.5 Child Routes and Nested Outlets -> `output/section-15/15.5-child-routes-and-nested-outlets.md`
+- [x] 15.6 Lazy Loading -> `output/section-15/15.6-lazy-loading.md`
+- [x] 15.7 Functional Route Guards -> `output/section-15/15.7-functional-route-guards.md`
+- [x] 15.8 Functional Route Resolvers -> `output/section-15/15.8-functional-route-resolvers.md`
+- [x] 15.9 Router Events -> `output/section-15/15.9-router-events.md`
+- [x] 15.10 Programmatic Navigation -> `output/section-15/15.10-programmatic-navigation.md`
+- [x] 15.11 Route Data and Page Titles -> `output/section-15/15.11-route-data-and-page-titles.md`
+- [x] 15.12 View Transitions API Integration -> `output/section-15/15.12-view-transitions-api-integration.md`
 
 ### Section 16: Forms
 - [ ] 16.1 Template-Driven Forms

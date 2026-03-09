@@ -217,12 +217,12 @@
           "name": "Developer Tools & Debugging",
           "folder": "section-10",
           "topics": [
-            { "id": "10.1", "file": "10.1-chrome-devtools.md", "title": "Chrome DevTools", "exists": false },
-            { "id": "10.2", "file": "10.2-angular-devtools.md", "title": "Angular DevTools", "exists": false },
-            { "id": "10.3", "file": "10.3-debugging-strategies.md", "title": "Debugging Strategies", "exists": false },
-            { "id": "10.4", "file": "10.4-vs-code-setup-for-angular.md", "title": "VS Code Setup for Angular", "exists": false },
-            { "id": "10.5", "file": "10.5-terminal-essentials.md", "title": "Terminal Essentials", "exists": false },
-            { "id": "10.6", "file": "10.6-browser-console-techniques.md", "title": "Browser Console Techniques", "exists": false }
+            { "id": "10.1", "file": "10.1-chrome-devtools.md", "title": "Chrome DevTools", "exists": true },
+            { "id": "10.2", "file": "10.2-angular-devtools.md", "title": "Angular DevTools", "exists": true },
+            { "id": "10.3", "file": "10.3-debugging-strategies.md", "title": "Debugging Strategies", "exists": true },
+            { "id": "10.4", "file": "10.4-vs-code-setup-for-angular.md", "title": "VS Code Setup for Angular", "exists": true },
+            { "id": "10.5", "file": "10.5-terminal-essentials.md", "title": "Terminal Essentials", "exists": true },
+            { "id": "10.6", "file": "10.6-browser-console-techniques.md", "title": "Browser Console Techniques", "exists": true }
           ]
         },
         {
@@ -230,25 +230,25 @@
           "name": "Angular Architecture, CLI & Project Setup",
           "folder": "section-11",
           "topics": [
-            { "id": "11.1", "file": "11.1-angular-cli-installation-and-commands.md", "title": "Angular CLI Installation and Commands", "exists": false },
-            { "id": "11.2", "file": "11.2-project-structure-and-file-conventions.md", "title": "Project Structure and File Conventions", "exists": false },
-            { "id": "11.3", "file": "11.3-standalone-components-architecture.md", "title": "Standalone Components Architecture", "exists": false },
-            { "id": "11.4", "file": "11.4-bootstrapping-with-bootstrapapplication.md", "title": "Bootstrapping with bootstrapApplication", "exists": false },
-            { "id": "11.5", "file": "11.5-angular-compilation.md", "title": "Angular Compilation (AOT, Esbuild)", "exists": false },
-            { "id": "11.6", "file": "11.6-workspace-configuration.md", "title": "Workspace Configuration", "exists": false },
-            { "id": "11.7", "file": "11.7-build-budgets-and-optimization-flags.md", "title": "Build Budgets and Optimization Flags", "exists": false },
-            { "id": "11.8", "file": "11.8-custom-builders-and-esbuild-vite-configuration.md", "title": "Custom Builders and Esbuild/Vite Configuration", "exists": false },
-            { "id": "11.9", "file": "11.9-environment-files-and-configuration.md", "title": "Environment Files and Configuration", "exists": false },
-            { "id": "11.10", "file": "11.10-custom-schematics.md", "title": "Custom Schematics", "exists": false },
-            { "id": "11.11", "file": "11.11-tailwind-css-setup.md", "title": "Tailwind CSS Setup", "exists": false },
-            { "id": "11.12", "file": "11.12-ngmodules-vs-standalone.md", "title": "NgModules (Legacy) vs Standalone (Default)", "exists": false },
-            { "id": "11.13", "file": "11.13-importprovidersfrom.md", "title": "importProvidersFrom() for Legacy Module Interop", "exists": false },
-            { "id": "11.14", "file": "11.14-migrating-from-ngmodules-to-standalone.md", "title": "Migrating from NgModules to Standalone", "exists": false },
-            { "id": "11.15", "file": "11.15-angular-signals-overview.md", "title": "Angular Signals Overview", "exists": false },
-            { "id": "11.16", "file": "11.16-dependency-injection-at-a-high-level.md", "title": "Dependency Injection at a High Level", "exists": false },
-            { "id": "11.17", "file": "11.17-template-syntax-overview.md", "title": "Template Syntax Overview", "exists": false },
-            { "id": "11.18", "file": "11.18-angulars-relationship-with-rxjs.md", "title": "Angular's Relationship with RxJS", "exists": false },
-            { "id": "11.19", "file": "11.19-angular-devtools.md", "title": "Angular DevTools", "exists": false }
+            { "id": "11.1", "file": "11.1-angular-cli-installation-and-commands.md", "title": "Angular CLI Installation and Commands", "exists": true },
+            { "id": "11.2", "file": "11.2-project-structure-and-file-conventions.md", "title": "Project Structure and File Conventions", "exists": true },
+            { "id": "11.3", "file": "11.3-standalone-components-architecture.md", "title": "Standalone Components Architecture", "exists": true },
+            { "id": "11.4", "file": "11.4-bootstrapping-with-bootstrap-application.md", "title": "Bootstrapping with bootstrapApplication", "exists": true },
+            { "id": "11.5", "file": "11.5-angular-compilation.md", "title": "Angular Compilation (AOT, Esbuild)", "exists": true },
+            { "id": "11.6", "file": "11.6-workspace-configuration.md", "title": "Workspace Configuration", "exists": true },
+            { "id": "11.7", "file": "11.7-build-budgets-and-optimization-flags.md", "title": "Build Budgets and Optimization Flags", "exists": true },
+            { "id": "11.8", "file": "11.8-custom-builders-and-esbuild-vite-configuration.md", "title": "Custom Builders and Esbuild/Vite Configuration", "exists": true },
+            { "id": "11.9", "file": "11.9-environment-files-and-configuration.md", "title": "Environment Files and Configuration", "exists": true },
+            { "id": "11.10", "file": "11.10-custom-schematics.md", "title": "Custom Schematics", "exists": true },
+            { "id": "11.11", "file": "11.11-tailwind-css-setup.md", "title": "Tailwind CSS Setup", "exists": true },
+            { "id": "11.12", "file": "11.12-ngmodules-legacy-vs-standalone-default.md", "title": "NgModules (Legacy) vs Standalone (Default)", "exists": true },
+            { "id": "11.13", "file": "11.13-import-providers-from-legacy-module-interop.md", "title": "importProvidersFrom() for Legacy Module Interop", "exists": true },
+            { "id": "11.14", "file": "11.14-migrating-from-ngmodules-to-standalone.md", "title": "Migrating from NgModules to Standalone", "exists": true },
+            { "id": "11.15", "file": "11.15-angular-signals-overview.md", "title": "Angular Signals Overview", "exists": true },
+            { "id": "11.16", "file": "11.16-dependency-injection-at-a-high-level.md", "title": "Dependency Injection at a High Level", "exists": true },
+            { "id": "11.17", "file": "11.17-template-syntax-overview.md", "title": "Template Syntax Overview", "exists": true },
+            { "id": "11.18", "file": "11.18-angulars-relationship-with-rxjs.md", "title": "Angular's Relationship with RxJS", "exists": true },
+            { "id": "11.19", "file": "11.19-angular-devtools.md", "title": "Angular DevTools", "exists": true }
           ]
         },
         {
@@ -256,20 +256,20 @@
           "name": "Components & Templates",
           "folder": "section-12",
           "topics": [
-            { "id": "12.1", "file": "12.1-component-basics.md", "title": "Component Basics", "exists": false },
-            { "id": "12.2", "file": "12.2-template-syntax.md", "title": "Template Syntax", "exists": false },
-            { "id": "12.3", "file": "12.3-control-flow.md", "title": "Control Flow", "exists": false },
-            { "id": "12.4", "file": "12.4-component-lifecycle-hooks.md", "title": "Component Lifecycle Hooks", "exists": false },
-            { "id": "12.5", "file": "12.5-signal-inputs.md", "title": "Signal Inputs", "exists": false },
-            { "id": "12.6", "file": "12.6-signal-outputs.md", "title": "Signal Outputs", "exists": false },
-            { "id": "12.7", "file": "12.7-model-inputs.md", "title": "Model Inputs", "exists": false },
-            { "id": "12.8", "file": "12.8-signal-view-queries.md", "title": "Signal View Queries", "exists": false },
-            { "id": "12.9", "file": "12.9-signal-content-queries.md", "title": "Signal Content Queries", "exists": false },
-            { "id": "12.10", "file": "12.10-template-reference-variables.md", "title": "Template Reference Variables", "exists": false },
-            { "id": "12.11", "file": "12.11-component-styling-and-viewencapsulation.md", "title": "Component Styling and ViewEncapsulation", "exists": false },
-            { "id": "12.12", "file": "12.12-deferrable-views.md", "title": "Deferrable Views", "exists": false },
-            { "id": "12.13", "file": "12.13-self-closing-component-tags.md", "title": "Self-Closing Component Tags", "exists": false },
-            { "id": "12.14", "file": "12.14-template-expressions-and-safe-navigation.md", "title": "Template Expressions and Safe Navigation", "exists": false }
+            { "id": "12.1", "file": "12.1-component-basics-standalone-by-default.md", "title": "Component Basics (Standalone by Default)", "exists": true },
+            { "id": "12.2", "file": "12.2-template-syntax.md", "title": "Template Syntax", "exists": true },
+            { "id": "12.3", "file": "12.3-control-flow.md", "title": "Control Flow", "exists": true },
+            { "id": "12.4", "file": "12.4-component-lifecycle-hooks.md", "title": "Component Lifecycle Hooks", "exists": true },
+            { "id": "12.5", "file": "12.5-signal-inputs.md", "title": "Signal Inputs", "exists": true },
+            { "id": "12.6", "file": "12.6-signal-outputs.md", "title": "Signal Outputs", "exists": true },
+            { "id": "12.7", "file": "12.7-model-inputs.md", "title": "Model Inputs", "exists": true },
+            { "id": "12.8", "file": "12.8-signal-view-queries.md", "title": "Signal View Queries", "exists": true },
+            { "id": "12.9", "file": "12.9-signal-content-queries.md", "title": "Signal Content Queries", "exists": true },
+            { "id": "12.10", "file": "12.10-template-reference-variables.md", "title": "Template Reference Variables", "exists": true },
+            { "id": "12.11", "file": "12.11-component-styling-and-viewencapsulation.md", "title": "Component Styling and ViewEncapsulation", "exists": true },
+            { "id": "12.12", "file": "12.12-deferrable-views.md", "title": "Deferrable Views", "exists": true },
+            { "id": "12.13", "file": "12.13-self-closing-component-tags.md", "title": "Self-Closing Component Tags", "exists": true },
+            { "id": "12.14", "file": "12.14-template-expressions-and-safe-navigation.md", "title": "Template Expressions and Safe Navigation", "exists": true }
           ]
         },
         {
@@ -277,16 +277,16 @@
           "name": "Data Binding & Directives",
           "folder": "section-13",
           "topics": [
-            { "id": "13.1", "file": "13.1-property-binding.md", "title": "Property Binding", "exists": false },
-            { "id": "13.2", "file": "13.2-class-and-style-binding.md", "title": "Class and Style Binding", "exists": false },
-            { "id": "13.3", "file": "13.3-event-binding-and-event-filtering.md", "title": "Event Binding and Event Filtering", "exists": false },
-            { "id": "13.4", "file": "13.4-two-way-binding.md", "title": "Two-Way Binding", "exists": false },
-            { "id": "13.5", "file": "13.5-built-in-attribute-directives.md", "title": "Built-in Attribute Directives", "exists": false },
-            { "id": "13.6", "file": "13.6-custom-attribute-directives.md", "title": "Custom Attribute Directives", "exists": false },
-            { "id": "13.7", "file": "13.7-directive-composition-api.md", "title": "Directive Composition API", "exists": false },
-            { "id": "13.8", "file": "13.8-ngoptimizedimage-directive.md", "title": "NgOptimizedImage Directive", "exists": false },
-            { "id": "13.9", "file": "13.9-ngcomponentoutlet-and-ngtemplateoutlet.md", "title": "NgComponentOutlet and NgTemplateOutlet", "exists": false },
-            { "id": "13.10", "file": "13.10-signal-based-reactivity-in-templates.md", "title": "Signal-Based Reactivity in Templates", "exists": false }
+            { "id": "13.1", "file": "13.1-property-binding.md", "title": "Property Binding", "exists": true },
+            { "id": "13.2", "file": "13.2-class-and-style-binding.md", "title": "Class and Style Binding", "exists": true },
+            { "id": "13.3", "file": "13.3-event-binding-and-event-filtering.md", "title": "Event Binding and Event Filtering", "exists": true },
+            { "id": "13.4", "file": "13.4-two-way-binding.md", "title": "Two-Way Binding", "exists": true },
+            { "id": "13.5", "file": "13.5-built-in-attribute-directives.md", "title": "Built-in Attribute Directives", "exists": true },
+            { "id": "13.6", "file": "13.6-custom-attribute-directives.md", "title": "Custom Attribute Directives", "exists": true },
+            { "id": "13.7", "file": "13.7-directive-composition-api.md", "title": "Directive Composition API", "exists": true },
+            { "id": "13.8", "file": "13.8-ngoptimizedimage-directive.md", "title": "NgOptimizedImage Directive", "exists": true },
+            { "id": "13.9", "file": "13.9-ngcomponentoutlet-and-ngtemplateoutlet.md", "title": "NgComponentOutlet and NgTemplateOutlet", "exists": true },
+            { "id": "13.10", "file": "13.10-signal-based-reactivity-in-templates.md", "title": "Signal-Based Reactivity in Templates", "exists": true }
           ]
         },
         {
@@ -294,15 +294,15 @@
           "name": "Services & Dependency Injection",
           "folder": "section-14",
           "topics": [
-            { "id": "14.1", "file": "14.1-services-and-injectable.md", "title": "Services and @Injectable", "exists": false },
-            { "id": "14.2", "file": "14.2-the-inject-function.md", "title": "The inject() Function", "exists": false },
-            { "id": "14.3", "file": "14.3-hierarchical-injectors.md", "title": "Hierarchical Injectors", "exists": false },
-            { "id": "14.4", "file": "14.4-injection-tokens.md", "title": "Injection Tokens", "exists": false },
-            { "id": "14.5", "file": "14.5-provider-types.md", "title": "Provider Types", "exists": false },
-            { "id": "14.6", "file": "14.6-multi-providers.md", "title": "Multi Providers", "exists": false },
-            { "id": "14.7", "file": "14.7-di-resolution-modifiers.md", "title": "DI Resolution Modifiers", "exists": false },
-            { "id": "14.8", "file": "14.8-environment-injector.md", "title": "Environment Injector and runInInjectionContext", "exists": false },
-            { "id": "14.9", "file": "14.9-service-design-patterns.md", "title": "Service Design Patterns", "exists": false }
+            { "id": "14.1", "file": "14.1-services-and-injectable.md", "title": "Services and @Injectable", "exists": true },
+            { "id": "14.2", "file": "14.2-the-inject-function.md", "title": "The inject() Function", "exists": true },
+            { "id": "14.3", "file": "14.3-hierarchical-injectors.md", "title": "Hierarchical Injectors", "exists": true },
+            { "id": "14.4", "file": "14.4-injection-tokens.md", "title": "Injection Tokens", "exists": true },
+            { "id": "14.5", "file": "14.5-provider-types.md", "title": "Provider Types", "exists": true },
+            { "id": "14.6", "file": "14.6-multi-providers.md", "title": "Multi Providers", "exists": true },
+            { "id": "14.7", "file": "14.7-di-resolution-modifiers.md", "title": "DI Resolution Modifiers", "exists": true },
+            { "id": "14.8", "file": "14.8-environment-injector-and-runInInjectionContext.md", "title": "Environment Injector and runInInjectionContext", "exists": true },
+            { "id": "14.9", "file": "14.9-service-design-patterns.md", "title": "Service Design Patterns", "exists": true }
           ]
         },
         {
@@ -310,18 +310,18 @@
           "name": "Routing & Navigation",
           "folder": "section-15",
           "topics": [
-            { "id": "15.1", "file": "15.1-router-setup.md", "title": "Router Setup", "exists": false },
-            { "id": "15.2", "file": "15.2-route-configuration.md", "title": "Route Configuration", "exists": false },
-            { "id": "15.3", "file": "15.3-route-parameters.md", "title": "Route Parameters and input() Binding", "exists": false },
-            { "id": "15.4", "file": "15.4-query-parameters.md", "title": "Query Parameters", "exists": false },
-            { "id": "15.5", "file": "15.5-child-routes-and-nested-outlets.md", "title": "Child Routes and Nested Outlets", "exists": false },
-            { "id": "15.6", "file": "15.6-lazy-loading.md", "title": "Lazy Loading", "exists": false },
-            { "id": "15.7", "file": "15.7-functional-route-guards.md", "title": "Functional Route Guards", "exists": false },
-            { "id": "15.8", "file": "15.8-functional-route-resolvers.md", "title": "Functional Route Resolvers", "exists": false },
-            { "id": "15.9", "file": "15.9-router-events.md", "title": "Router Events", "exists": false },
-            { "id": "15.10", "file": "15.10-programmatic-navigation.md", "title": "Programmatic Navigation", "exists": false },
-            { "id": "15.11", "file": "15.11-route-data-and-page-titles.md", "title": "Route Data and Page Titles", "exists": false },
-            { "id": "15.12", "file": "15.12-view-transitions-api-integration.md", "title": "View Transitions API Integration", "exists": false }
+            { "id": "15.1", "file": "15.1-router-setup.md", "title": "Router Setup", "exists": true },
+            { "id": "15.2", "file": "15.2-route-configuration.md", "title": "Route Configuration", "exists": true },
+            { "id": "15.3", "file": "15.3-route-parameters-and-input-binding.md", "title": "Route Parameters and input() Binding", "exists": true },
+            { "id": "15.4", "file": "15.4-query-parameters.md", "title": "Query Parameters", "exists": true },
+            { "id": "15.5", "file": "15.5-child-routes-and-nested-outlets.md", "title": "Child Routes and Nested Outlets", "exists": true },
+            { "id": "15.6", "file": "15.6-lazy-loading.md", "title": "Lazy Loading", "exists": true },
+            { "id": "15.7", "file": "15.7-functional-route-guards.md", "title": "Functional Route Guards", "exists": true },
+            { "id": "15.8", "file": "15.8-functional-route-resolvers.md", "title": "Functional Route Resolvers", "exists": true },
+            { "id": "15.9", "file": "15.9-router-events.md", "title": "Router Events", "exists": true },
+            { "id": "15.10", "file": "15.10-programmatic-navigation.md", "title": "Programmatic Navigation", "exists": true },
+            { "id": "15.11", "file": "15.11-route-data-and-page-titles.md", "title": "Route Data and Page Titles", "exists": true },
+            { "id": "15.12", "file": "15.12-view-transitions-api-integration.md", "title": "View Transitions API Integration", "exists": true }
           ]
         },
         {
