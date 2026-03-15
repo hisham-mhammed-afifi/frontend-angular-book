@@ -243,45 +243,45 @@
 - [x] 15.12 View Transitions API Integration -> `output/section-15/15.12-view-transitions-api-integration.md`
 
 ### Section 16: Forms
-- [ ] 16.1 Template-Driven Forms
-- [ ] 16.2 Reactive Forms
-- [ ] 16.3 Typed Reactive Forms
-- [ ] 16.4 Built-in and Custom Validators
-- [ ] 16.5 Form State and Error Display
-- [ ] 16.6 Dynamic Forms with `FormArray`
-- [ ] 16.7 Custom Form Controls (`ControlValueAccessor`)
-- [ ] 16.8 Signal Forms (Angular 21 Experimental)
-- [ ] 16.9 Form Performance
-- [ ] 16.10 Form Patterns
+- [x] 16.1 Template-Driven Forms -> `output/section-16/16.1-template-driven-forms.md`
+- [x] 16.2 Reactive Forms -> `output/section-16/16.2-reactive-forms.md`
+- [x] 16.3 Typed Reactive Forms -> `output/section-16/16.3-typed-reactive-forms.md`
+- [x] 16.4 Built-in and Custom Validators -> `output/section-16/16.4-built-in-and-custom-validators.md`
+- [x] 16.5 Form State and Error Display -> `output/section-16/16.5-form-state-and-error-display.md`
+- [x] 16.6 Dynamic Forms with `FormArray` -> `output/section-16/16.6-dynamic-forms-with-formarray.md`
+- [x] 16.7 Custom Form Controls (`ControlValueAccessor`) -> `output/section-16/16.7-custom-form-controls-controlvalueaccessor.md`
+- [x] 16.8 Signal Forms (Angular 21) -> `output/section-16/16.8-signal-forms.md`
+- [x] 16.9 Form Performance -> `output/section-16/16.9-form-performance.md`
+- [x] 16.10 Form Patterns -> `output/section-16/16.10-form-patterns.md`
 
 ### Section 17: Pipes & Data Transformation
-- [ ] 17.1 Built-in Pipes
-- [ ] 17.2 Pipe Parameters and Chaining
-- [ ] 17.3 Custom Pipes
-- [ ] 17.4 Pure vs Impure Pipes
-- [ ] 17.5 `AsyncPipe`
-- [ ] 17.6 Pipes vs Methods in Templates
-- [ ] 17.7 Internationalization with Pipes
-- [ ] 17.8 Standalone Pipes
+- [x] 17.1 Built-in Pipes -> `output/section-17/17.1-built-in-pipes.md`
+- [x] 17.2 Pipe Parameters and Chaining -> `output/section-17/17.2-pipe-parameters-and-chaining.md`
+- [x] 17.3 Custom Pipes -> `output/section-17/17.3-custom-pipes.md`
+- [x] 17.4 Pure vs Impure Pipes -> `output/section-17/17.4-pure-vs-impure-pipes.md`
+- [x] 17.5 `AsyncPipe` -> `output/section-17/17.5-async-pipe.md`
+- [x] 17.6 Pipes vs Methods in Templates -> `output/section-17/17.6-pipes-vs-methods-in-templates.md`
+- [x] 17.7 Internationalization with Pipes -> `output/section-17/17.7-internationalization-with-pipes.md`
+- [x] 17.8 Standalone Pipes -> `output/section-17/17.8-standalone-pipes.md`
 
 ---
 
 ## Phase 3: Angular Intermediate
 
 ### Section 18: RxJS & Reactive Programming
-- [ ] 18.1 Reactive Programming Concepts
-- [ ] 18.2 Observable Basics
-- [ ] 18.3 Subjects
-- [ ] 18.4 Creation Operators
-- [ ] 18.5 Transformation Operators
-- [ ] 18.6 Filtering Operators
-- [ ] 18.7 Combination Operators
-- [ ] 18.8 Error Handling Operators
-- [ ] 18.9 Higher-Order Observables and Flattening Strategies
-- [ ] 18.10 Multicasting
-- [ ] 18.11 Memory Management
-- [ ] 18.12 RxJS Interop with Signals
-- [ ] 18.13 Common Patterns
+- [x] 18.1 Reactive Programming Concepts -> `output/section-18/18.1-reactive-programming-concepts.md`
+- [x] 18.2 Observable Basics -> `output/section-18/18.2-observable-basics.md`
+- [x] 18.3 Subjects -> `output/section-18/18.3-subjects.md`
+- [x] 18.4 Creation Operators -> `output/section-18/18.4-creation-operators.md`
+- [x] 18.5 Transformation Operators -> `output/section-18/18.5-transformation-operators.md`
+- [x] 18.6 Filtering Operators -> `output/section-18/18.6-filtering-operators.md`
+- [x] 18.7 Combination Operators -> `output/section-18/18.7-combination-operators.md`
+- [x] 18.8 Error Handling Operators -> `output/section-18/18.8-error-handling-operators.md`
+- [x] 18.9 Higher-Order Observables and Flattening Strategies -> `output/section-18/18.9-higher-order-observables-and-flattening-strategies.md`
+- [x] 18.10 Multicasting -> `output/section-18/18.10-multicasting.md`
+- [x] 18.11 Memory Management -> `output/section-18/18.11-memory-management.md`
+- [x] 18.12 RxJS Interop with Signals -> `output/section-18/18.12-rxjs-interop-with-signals.md`
+- [x] 18.13 Common Patterns -> `output/section-18/18.13-common-patterns.md`
 
 ### Section 19: HTTP Client & API Integration
 - [ ] 19.1 HttpClient Setup

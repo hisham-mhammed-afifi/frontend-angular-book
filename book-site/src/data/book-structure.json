@@ -329,16 +329,16 @@
           "name": "Forms",
           "folder": "section-16",
           "topics": [
-            { "id": "16.1", "file": "16.1-template-driven-forms.md", "title": "Template-Driven Forms", "exists": false },
-            { "id": "16.2", "file": "16.2-reactive-forms.md", "title": "Reactive Forms", "exists": false },
-            { "id": "16.3", "file": "16.3-typed-reactive-forms.md", "title": "Typed Reactive Forms", "exists": false },
-            { "id": "16.4", "file": "16.4-built-in-and-custom-validators.md", "title": "Built-in and Custom Validators", "exists": false },
-            { "id": "16.5", "file": "16.5-form-state-and-error-display.md", "title": "Form State and Error Display", "exists": false },
-            { "id": "16.6", "file": "16.6-dynamic-forms-with-formarray.md", "title": "Dynamic Forms with FormArray", "exists": false },
-            { "id": "16.7", "file": "16.7-custom-form-controls.md", "title": "Custom Form Controls (ControlValueAccessor)", "exists": false },
-            { "id": "16.8", "file": "16.8-signal-forms.md", "title": "Signal Forms", "exists": false },
-            { "id": "16.9", "file": "16.9-form-performance.md", "title": "Form Performance", "exists": false },
-            { "id": "16.10", "file": "16.10-form-patterns.md", "title": "Form Patterns", "exists": false }
+            { "id": "16.1", "file": "16.1-template-driven-forms.md", "title": "Template-Driven Forms", "exists": true },
+            { "id": "16.2", "file": "16.2-reactive-forms.md", "title": "Reactive Forms", "exists": true },
+            { "id": "16.3", "file": "16.3-typed-reactive-forms.md", "title": "Typed Reactive Forms", "exists": true },
+            { "id": "16.4", "file": "16.4-built-in-and-custom-validators.md", "title": "Built-in and Custom Validators", "exists": true },
+            { "id": "16.5", "file": "16.5-form-state-and-error-display.md", "title": "Form State and Error Display", "exists": true },
+            { "id": "16.6", "file": "16.6-dynamic-forms-with-formarray.md", "title": "Dynamic Forms with FormArray", "exists": true },
+            { "id": "16.7", "file": "16.7-custom-form-controls-controlvalueaccessor.md", "title": "Custom Form Controls (ControlValueAccessor)", "exists": true },
+            { "id": "16.8", "file": "16.8-signal-forms.md", "title": "Signal Forms", "exists": true },
+            { "id": "16.9", "file": "16.9-form-performance.md", "title": "Form Performance", "exists": true },
+            { "id": "16.10", "file": "16.10-form-patterns.md", "title": "Form Patterns", "exists": true }
           ]
         },
         {
@@ -346,14 +346,14 @@
           "name": "Pipes & Data Transformation",
           "folder": "section-17",
           "topics": [
-            { "id": "17.1", "file": "17.1-built-in-pipes.md", "title": "Built-in Pipes", "exists": false },
-            { "id": "17.2", "file": "17.2-pipe-parameters-and-chaining.md", "title": "Pipe Parameters and Chaining", "exists": false },
-            { "id": "17.3", "file": "17.3-custom-pipes.md", "title": "Custom Pipes", "exists": false },
-            { "id": "17.4", "file": "17.4-pure-vs-impure-pipes.md", "title": "Pure vs Impure Pipes", "exists": false },
-            { "id": "17.5", "file": "17.5-asyncpipe.md", "title": "AsyncPipe", "exists": false },
-            { "id": "17.6", "file": "17.6-pipes-vs-methods-in-templates.md", "title": "Pipes vs Methods in Templates", "exists": false },
-            { "id": "17.7", "file": "17.7-internationalization-with-pipes.md", "title": "Internationalization with Pipes", "exists": false },
-            { "id": "17.8", "file": "17.8-standalone-pipes.md", "title": "Standalone Pipes", "exists": false }
+            { "id": "17.1", "file": "17.1-built-in-pipes.md", "title": "Built-in Pipes", "exists": true },
+            { "id": "17.2", "file": "17.2-pipe-parameters-and-chaining.md", "title": "Pipe Parameters and Chaining", "exists": true },
+            { "id": "17.3", "file": "17.3-custom-pipes.md", "title": "Custom Pipes", "exists": true },
+            { "id": "17.4", "file": "17.4-pure-vs-impure-pipes.md", "title": "Pure vs Impure Pipes", "exists": true },
+            { "id": "17.5", "file": "17.5-async-pipe.md", "title": "AsyncPipe", "exists": true },
+            { "id": "17.6", "file": "17.6-pipes-vs-methods-in-templates.md", "title": "Pipes vs Methods in Templates", "exists": true },
+            { "id": "17.7", "file": "17.7-internationalization-with-pipes.md", "title": "Internationalization with Pipes", "exists": true },
+            { "id": "17.8", "file": "17.8-standalone-pipes.md", "title": "Standalone Pipes", "exists": true }
           ]
         }
       ]
@@ -368,19 +368,19 @@
           "name": "RxJS & Reactive Programming",
           "folder": "section-18",
           "topics": [
-            { "id": "18.1", "file": "18.1-reactive-programming-concepts.md", "title": "Reactive Programming Concepts", "exists": false },
-            { "id": "18.2", "file": "18.2-observable-basics.md", "title": "Observable Basics", "exists": false },
-            { "id": "18.3", "file": "18.3-subjects.md", "title": "Subjects", "exists": false },
-            { "id": "18.4", "file": "18.4-creation-operators.md", "title": "Creation Operators", "exists": false },
-            { "id": "18.5", "file": "18.5-transformation-operators.md", "title": "Transformation Operators", "exists": false },
-            { "id": "18.6", "file": "18.6-filtering-operators.md", "title": "Filtering Operators", "exists": false },
-            { "id": "18.7", "file": "18.7-combination-operators.md", "title": "Combination Operators", "exists": false },
-            { "id": "18.8", "file": "18.8-error-handling-operators.md", "title": "Error Handling Operators", "exists": false },
-            { "id": "18.9", "file": "18.9-higher-order-observables.md", "title": "Higher-Order Observables", "exists": false },
-            { "id": "18.10", "file": "18.10-multicasting.md", "title": "Multicasting", "exists": false },
-            { "id": "18.11", "file": "18.11-memory-management.md", "title": "Memory Management", "exists": false },
-            { "id": "18.12", "file": "18.12-rxjs-interop-with-signals.md", "title": "RxJS Interop with Signals", "exists": false },
-            { "id": "18.13", "file": "18.13-common-patterns.md", "title": "Common Patterns", "exists": false }
+            { "id": "18.1", "file": "18.1-reactive-programming-concepts.md", "title": "Reactive Programming Concepts", "exists": true },
+            { "id": "18.2", "file": "18.2-observable-basics.md", "title": "Observable Basics", "exists": true },
+            { "id": "18.3", "file": "18.3-subjects.md", "title": "Subjects", "exists": true },
+            { "id": "18.4", "file": "18.4-creation-operators.md", "title": "Creation Operators", "exists": true },
+            { "id": "18.5", "file": "18.5-transformation-operators.md", "title": "Transformation Operators", "exists": true },
+            { "id": "18.6", "file": "18.6-filtering-operators.md", "title": "Filtering Operators", "exists": true },
+            { "id": "18.7", "file": "18.7-combination-operators.md", "title": "Combination Operators", "exists": true },
+            { "id": "18.8", "file": "18.8-error-handling-operators.md", "title": "Error Handling Operators", "exists": true },
+            { "id": "18.9", "file": "18.9-higher-order-observables-and-flattening-strategies.md", "title": "Higher-Order Observables and Flattening Strategies", "exists": true },
+            { "id": "18.10", "file": "18.10-multicasting.md", "title": "Multicasting", "exists": true },
+            { "id": "18.11", "file": "18.11-memory-management.md", "title": "Memory Management", "exists": true },
+            { "id": "18.12", "file": "18.12-rxjs-interop-with-signals.md", "title": "RxJS Interop with Signals", "exists": true },
+            { "id": "18.13", "file": "18.13-common-patterns.md", "title": "Common Patterns", "exists": true }
           ]
         },
         {
